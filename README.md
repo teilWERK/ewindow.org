@@ -11,25 +11,6 @@ Markdown is a lightweight and easy-to-use syntax for styling your writing. It in
 ```markdown
 Syntax highlighted code block
 
-# EWindow Manual - Part 1
-
-What is the elektronic Window?
-
-# EWindow Manual - Part 2 - How to build your own Window
-
-
-## BOM - Bill of Materials / Buy List
-
-- Raspberry Pi 3
-- MicroSD Card (in case of Raspberry Pi)
-- USB Power Supply
-- Monitor + HDMI Cable + Converter (if needed)
-- Camera: RPi-Camera or almost any USB Webcam
-- Audio: USB Speakerphone (Jabra 410, Plantronics 610)[cave: not yet working stable with RPi3], or USB Microphone or USB Soundcard + Mic
-- Internet Access through LAN-Cable (highy recommended)!
-- >1 hr of setup time
-
-Most non-ancient old laptops with Linux/BSD running will do as well
 
 
 ## Header 2
@@ -55,3 +36,4 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 ### Support or Contact
 
 Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+
