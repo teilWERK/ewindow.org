@@ -11,7 +11,27 @@ Markdown is a lightweight and easy-to-use syntax for styling your writing. It in
 ```markdown
 Syntax highlighted code block
 
-# Header 1
+# EWindow Manual - Part 1
+
+What is the elektronic Window?
+
+# EWindow Manual - Part 2 - How to build your own Window
+
+
+## BOM - Bill of Materials / Buy List
+
+- Raspberry Pi 3
+- MicroSD Card (in case of Raspberry Pi)
+- USB Power Supply
+- Monitor + HDMI Cable + Converter (if needed)
+- Camera: RPi-Camera or almost any USB Webcam
+- Audio: USB Speakerphone (Jabra 410, Plantronics 610)[cave: not yet working stable with RPi3], or USB Microphone or USB Soundcard + Mic
+- Internet Access through LAN-Cable (highy recommended)!
+- >1 hr of setup time
+
+Most non-ancient old laptops with Linux/BSD running will do as well
+
+
 ## Header 2
 ### Header 3
 
