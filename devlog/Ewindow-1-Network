@@ -1,0 +1,38 @@
+# De-centralized Network Architecture
+
+## Links
+https://hyperboria.net/
+cjdns paper: https://github.com/cjdelisle/cjdns/blob/master/doc/Whitepaper.md
+
+#Research BRTP Protocol -> Lightweight alternative to SIP?
+http://www.barix.com/fileadmin/data/howto/Howto_Instreamer-Exstreamer_v111.pdf
+
+C3D2 https://wiki.c3d2.de/EDN
+
+https://projectedn.wordpress.com/cutting-edge-technologies/
+(Video-) Telephony and Streaming
+
+    Tox, https://en.wikipedia.org/wiki/Tox_%28protocol%29
+
+    Serval, http://www.servalproject.org/
+
+    WebTorrent, https://webtorrent.io/
+
+    Tribler, https://www.tribler.org/, https://datatracker.ietf.org/doc/rfc7574/
+
+
+https://datatracker.ietf.org/doc/rfc7574/
+
+
+
+CJDNS
+=====
+Raspberry Pi Workaround:
+http://mesh.philly2600.net/?p=54
+
+    NO_TEST=1 Seccomp_NO=1 ./do
+
+## Setup Process
+
+    ./cjdroute
+    
