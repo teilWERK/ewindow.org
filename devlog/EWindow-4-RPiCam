@@ -1,0 +1,479 @@
+USB Webcam on RaspBSD
+=====================
+
+pkg install webcamd -> install/load/autoload cuse4bsd (requires aarch64/armv8)
+
+
+NEXT: The Operation
+===================
+
+Merge rpi-camera-dump-yuv.c and rpicam.c
+
+1. Rename main() to camera_thread()
+2. Replace stdout writing by halling the frame handler
+3. Reach in frame handler to pthread argument
+4. new pthread rpicam_thread, calling which was rpi-camera-dump-yuv.c:main
+5. Try to compile;; 
+6. handle undefined reference to rpicam_thread by adding rpi-camera-dump-yuv.c to compile
+7. Remove fd_out references
+8. set resolution to 480x270 #Yolo
+9. Figure out reason of segfault -> backtrace trashed
+9b. step through rpicam_thread
+10. 
+
+What does the original v4l reader_thread do?
+-> 
+    while(1) {
+        read stuff;
+        if stuff < some size: warning
+        call_frame_handler(stuff)
+    }
+    
+call_frame_handler(st, buf) {
+    struct vidframe frame;
+    vidframe_init_buf(&frame, VID_FMT_RGB, &st->size, buf);
+    st->frameh(&frame, st->arg);
+}
+
+ack vidframe_init_buf
+
+
+----
+
+
+History
+-------
+
+I couldn't get decent performance with gstreamer and headeaches to run gstreamer-1.9 on raspbian
+current is gstreamer-1.0 even
+gst-omx-1.0 too complicated and didn't support tunneling
+openmax video_render much fast than egl_render|EGLImage
+
+
+* Edit browser history to find the general purpose
+* 
+
+
+EWindow Scratchpad
+==================
+
+
+
+New ideas:
+* Implement a raspicam|yuvvideo to aalib/libcaca sink
+** Login on ewindow.org through shellinabox /shell
+** tmux attach to the ssh
+** ssh to the exe wind
+** Show video through libaa
+
+* 
+
+
+Next
+====
+
+* Clean up my code: yuvvideo.c
+** Make it at least display nice noise
+** 
+** YUV Support: just 3 memcpy's based on stride
+
+Research
+--------
+
+* How does bitrate adaption works in baresip??
+* 
+
+
+
+Freitag 16Dec2016
+===========
+
+Past - was current 16Dec2016
+-------
+
+* video_decode tunnel pipeline not working, unknown reasons
+* work towards vidloop
+* trying to get encoder running
+
+Done
+----
+
+* Encoder running
+* Have vidisp only module
+* use vidloop/codec
+* wrote omx app to show file as raw yuv420p video
+* baresip broke when bcm_host_init() was introduced
+* fork()? IPC?
+* OMX Network service
+* ip 2 video
+* omx-h264-rtp
+
+
+
+Documentation
+=============
+
+Garbage Collection
+------------------
+#TODO: More info about garbage collection here
+
+* Understand Garbage Collection Pattern:
+    vds = mem_zalloc(sizeof(*vds), destructor);
+    mem_deref(vds)??
+
+Next
+----
+
+* Works on x86, crash on raspberry??
+
+Program received signal SIGSEGV, Segmentation fault.
+[Switching to Thread 20813800 (LWP 100428/baresip)]
+vidsrc_frame_handler (frame=0x2090bee0, arg=0x20836620) at modules/vidloop/vidloop.c:204
+204            if (st->vf->ench)
+
+SOLVED: was git version f*ckup
+
+
+* baresip -6 can talk between
+
+Next
+----
+
+* video_encode ??
+* video_decode/render ??
+
+
+baresip
+-------
+
+* Why is IPv6 not signalled in ICE-less SDP?
+** Native Ipv6 support in baresip?
+** Should be: https://edvina.net/sipv6/protocol/
+
+Try: Start baresip with -6 ??
+
+
+
+
+NEXT
+----
+
+ack videnc_up # add videnc stubs
+# -> include/baresip.h
+839:typedef int (videnc_update_h)(struct videnc_state **vesp,
+840-                  const struct vidcodec *vc,
+841-                  struct videnc_param *prm, const char *fmtp,
+842-                  videnc_packet_h *pkth, void *arg);
+843-typedef int (videnc_encode_h)(struct videnc_state *ves, bool update,
+844-                  const struct vidframe *frame);
+
+# ack -A15 struct.vidcodec include
+852:struct vidcodec {
+853-    struct le le;
+854-    const char *pt;
+855-    const char *name;
+856-    const char *variant;
+857-    const char *fmtp;
+858-    videnc_update_h *encupdh;
+859-    videnc_encode_h *ench;
+860-    viddec_update_h *decupdh;
+861-    viddec_decode_h *dech;
+862-    sdp_fmtp_enc_h *fmtp_ench;
+863-    sdp_fmtp_cmp_h *fmtp_cmph;
+864-};
+
+
+
+WTF IS FTMP/fmtp?
+--> ?? Format Pointer? pointer to string with codec packetization setting
+
+DONE
+----
+
+vidloop: open video display (.)
+vc4_allocdev=
+vidloop: enabled encoder H264 (25 fps, 500000 bit/s)
+vidloop: enabled decoder H264
+videnc_update
+vidloop: update encoder failed: Exec format error
+
+
+static int videnc_update(struct videnc_state **vesp,
+                  const struct vidcodec *vc,
+                  struct videnc_param *prm, const char *fmtp,
+                  videnc_packet_h *pkth, void *arg)
+{
+    puts("videnc_update");
+    
+}
+
+gdb --args ./baresip -e/vidloop\ h264
+
+Breakpoint   1, videnc_update (vesp=0x8022ee400, vc=0x8026013b8,  prm=0x7fffffffe588,  fmtp=0x0, pkth=0x80b6c5fc0 <packet_handler>, 
+    arg=0x8022ee2c0) at modules/vc4/vc4.c:131
+warning: Source file is more recent than executable.
+
+131        puts("videnc_update");
+Current language:  auto; currently minimal
+(gdb) print *vesp
+$1 = (struct videnc_state *) 0x0
+(gdb) print *vc
+$2 = {le = {prev = 0x0, next = 0x803435548, list = 0x6363e0, data = 0x8026013b8}, pt = 0x0, name = 0x802400e55 "H264", 
+  variant = 0x802400e5a "packetization-mode=0", fmtp = 0x0, encupdh = 0x802400c10 <videnc_update>, 
+    ench = 0x802400a60 <videnc_encode>, decupdh = 0x802400c50   <viddec_update>, dech = 0x802400a10 <viddec_decode>, 
+  fmtp_ench = 0x802400c80 <h264_fmtp_enc>, fmtp_cmph = 0x802400d10 <h264_fmtp_cmp>}
+(gdb) print *prm
+$3 = {bitrate = 500000, pktsize = 1480, fps = 25, max_fs = 4294967295}
+(gdb) 
+
+
+Packet handler reached into encode_update:
+typedef int (videnc_packet_h)(bool marker, const uint8_t *hdr, size_t hdr_len,
+                  const uint8_t *pld, size_t pld_len, void *arg);
+                  // hdr is RTP header??
+
+* Got it, was return 0;
+
+DONE
+----
+
+Why is decode function not called?
+Put stuff in bellagio omx --> not available on freebsd
+
+* What can i instead, if neither Raspi nor bellagio omx is available?
+* Get Callbacks for window managment!
+* Not called because videnc never starts viddec starts output?
+--> Look at hello_encode
+
+* Need to pass pkth handler function from update to encode
+ack videnc_state
+
+solution:
+
+    info("passing random junk to pkth\n");
+    ves->pkth(false /* no marker */, 0 /* no hdr */, 0 /* hdr_len */, 
+        frame, 123, ves->arg);
+        
+vidloop: enabled encoder H264 (25 fps, 500000 bit/s)
+vidloop: enabled decoder H264
+videnc_update: *vesp=(nil)
+viddec_updateEnabled codec: H264
+
+Set static int viddec_update(struct viddec_state **vdsp, 
+vdsp to something, viddec_decode gets called
+
+* give newline to viddec_update/decode        
+
+* analyse viddec_data
+viddec_update *vdsp=(nil), vc=0x8026015d8, fmtp=
+
+* analyse viddec_decode
+
+Breakpoint 1, viddec_decode (vds=0x1337, frame=0x7fffdfffdd70, intra=0x7fffdfffdd67, marker=false, seq=0, mb=0x80ba36040)
+    at modules/vc4/vc4.c:117
+
+(gdb) print marker
+$1 = false
+(gdb) print *frame
+$2 = {data = 0x7fffdfffdd70, linesize = 0x7fffdfffdd90, size = {w = 0, h = 0}, fmt = 704}
+(gdb) 
+
+  
+
+* where the Heck is vidframe ??
+--> ../rem/include/rem_vid.h
+
+/** Video frame */
+struct vidframe {
+    uint8_t *data[4];      /**< Video planes        */
+    uint16_t linesize[4];  /**< Array of line-sizes */
+    struct vidsz size;     /**< Frame resolution    */
+    enum vidfmt fmt;       /**< Video pixel format  */
+};
+
+
+--> Re-include #include <rem.h>
+
+
+Port to Raspi
+-------------
+
+Merge stuff, forgot to commit etc. etc.
+
+    videnc_update: vesp=0x20836758viddec_updateEnabled codec: H264
+    [New Thread 20813800 (LWP 100407/baresip)]
+
+    Program received signal SIGSEGV, Segmentation fault.
+    [Switching to Thread 20813800 (LWP 100407/baresip)]
+    vidsrc_frame_handler (frame=0x2090bee0, arg=0x20836620) at modules/vidloop/vidloop.c:204
+    204            if (st->vf->ench)
+
+Solved: Git version fup
+
+Next
+----
+
+* Understand Garbage Collection Pattern:
+vds = mem_zalloc(sizeof(*vds), destructor);
+* Clean up code
+
+* Get video_decode to work. Is it running?
+* Can it work with small packets?
+
+
+
+NEWS
+====
+
+Found cool ARM products on 96boards.org
+http://www.ucrobotics.com.cn/bubblegum96/
+
+In addition to standard 96Boards features, the board will offer  integrated HDMI with Ultra 4K output, Full HD video capture (1080P@60fps  H.264) and ARM TrustZone® security support.
+
+
+NEXT
+====
+
+* Thread safety in baresip? why is update called before init finishes?
+* Need a semaphor in omx_update_size
+
+Welcome to teilWERK sharePAD V0.0.1! 
+
+This pad  text is synchronized as you type, so that everyone viewing this page  sees the same text.  This allows you to collaborate seamlessly on  documents! 
+
+
+
+FreeBSD
+=======
+
+Thread Synchronization
+----------------------
+
+
+
+Good Idea
+=========
+
+96boards
+
+
+EWindow
+=======
+
+
+Next
+----
+
+* Why is update() running before alloc() finishes?
+
+
+Log
+---
+
+/vidloop
+Enable video-loop on ,: 320 x 160
+vidloop: ,: open video source: 320 x 160 at 25 fps
+vidloop: open video display (.)
+vc4_alloc
+OMX_GetHandle success
+created video_render component
+Set Format parameters
+OMX EventHandler
+to idle state
+baresip: vc4 display
+: No error: 0
+new frame size: w=320 h=160
+omx_update_size 320 160
+set port definition parameter
+Port: enabled=1
+to idle state
+Treating Buffer 0
+Treating Buffer 1
+Treating Buffer 2
+OMX EventHandler
+to execute state
+OMX EventHandler
+first state ever: not in idle state
+omx_alloc_render failed: -1
+vidloop: video display failed: Invalid argument
+mem: mem_deref: magic check failed 0xb5b5b5b5 (0x2086e320)
+vidloop: alloc: Invalid argument
+
+
+Done
+----
+
+- Actual Problem: OMX component not transitioning to idle state reliably
+Breakpoint 1, EventHandler (hComponent=0x208224e0, pAppData=0x1337, eEvent=OMX_EventError, nData1=2147487762, nData2=1, 
+
+198:  OMX_ErrorSameState = (OMX_S32) 0x80001012,
+- Solution: Remove superfluous state-set commands
+
+
+Next
+====
+
+Set Format parameters
+baresip: OMX EventHandler event=1      nData1=80001012 nDtata2=1: No error: 0
+
+    $ less /usr/local/include/IL/OMX_Core.h # /ERRORTYPE
+      OMX_ErrorInvalidComponentName = (OMX_S32) 0x80001002,
+      OMX_ErrorSameState = (OMX_S32) 0x80001012,
+  
+event=0 -> OMX_EventCmdComplete,
+
+
+Next
+====
+
+* Use re_mqueue
+
+
+Current
+-------
+
+* Things are working more or less with simple mutex synchronization
+* Now, the image does not seem right
+** How much exactly is a YUV420p image?
+** Guess: x = w * h; size = x + x/2;
+
+Next
+====
+
+* Clean up yuvvideo example??
+* Problem: Code expects 320x240 resolution?? Doesnt catch new resolution 352x288
+
+
+Current
+-------
+
+* Now it's basically working
+** Using lower resolution 160x120 to test better
+* Something is wrong with image format, image looks sliced
+* Solved by setting stride to linesize[0]
+* But there is something missing
+* IDEA: omx_allocate_buffer(), get a render buffer once resolution etc. is known.
+
+* _Problem_ : Sounds from window played on x220 sounds garbled
+* _Problem_ : raspicam driver still missing
+
+
+Decide
+------
+
+* Use that rpi-omx sample with cam
+** Copy v4l2_codec, make a plugin from it
+* Buy a RPi3 at Conrad, use webcamd/cuse4bsd?, 42 Euro
+* Install Linux on BSDWindow
+
+
+Art
+===
+
+[EWindow-ART]
+
+Links
+=====
+
+https://www.opennet.ru/opennews/art.shtml?num=43201
+
