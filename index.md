@@ -19,7 +19,7 @@ Each window can be opened on another one, but just one connection can be&nbsp; e
 
 Each&nbsp; e-window is open all day long from one space to another one. If there&nbsp; are two persons close to the two windows, they can talk and interact.
 
-E-windows&nbsp; are based on low-cost technologies (Raspberry Pie, a flat monitor, a&nbsp; webcam, Linux and a few other electronics) and are intended to be just&nbsp; e-windows: they don’t have keyboard, mouse, browser, and other programs&nbsp; installed.
+E-windows&nbsp; are based on low-cost technologies (Raspberry Pi, a flat monitor, a&nbsp; webcam, Linux and a few other electronics) and are intended to be just&nbsp; e-windows: they don’t have keyboard, mouse, browser, and other programs&nbsp; installed.
 
 If people want to meet in front of the window, they act exactly as if they would plan to meet someone at the bar:
 
@@ -72,6 +72,10 @@ to be converted into a useful manual, step-by-step
 - [Part 1 - Network Architecture](manual/EWindow-1)
 - [Bill of Materials](manual/EWindow-BOM)
 
+# DevLog
+
+[Notes of using baresip with WebRTC Client](devlog/EWindow-7-WebRTC)
+
 Development  
 ===========
 
@@ -83,16 +87,46 @@ The development of ewindow is focussing on two parts:
 
 2) Integration and User Interface scripting
 
+	The plan is to build a native Raspberry Pi Application
+	based on lib[baresip](https://github.com/alfredh/baresip)
+
+This repository is points to a bunch of install/setup scripts,
+starting from Raspbian Jessie Lite former
+[daemontools](https://cr.yp.to/daemontools.html) scripts example configs and :
+
     git clone https://github.com/strfry/ewindow
 
 3) WebSite and Documentation
 
     git clone https://github.com/eleKtronicwindow/eleKtronicwindow.github.io
 
+## MakeMunich Cluster
+
+There is a different development line based off WebRTC.
+
+
 !<--
 # Stuff
 
 [Old D Hackpad](Hackpad-D-export-09Dec2016.html)
+=======
+
+
+Challenges
+==========
+
+* Using the native Raspberry Pi VideoCore4 HW Acceleration
+** DONE: The omx vidisp module has been merged into baresip upstream
+* Audio
+** Real-Time/Latency
+** Accoustic Echo
+** CPU Load of Opus codec
+** USB Speakerphones (Plantronics 610, Jabra 410) currently crashing into Raspi's tiny USB Host
+*** TODO: Try on FreeBSD
+** Interaction with SIP hardware phones?
+*** IDEA: Use the Raspberry Pi (1) as a video-adding proxy on a ip phone
+** Hardware design of Raspi I2S Speakerphone Hat?
+*** TODO: This will need webrtc_aec baresip plugin
 
 
 Download  
