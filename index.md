@@ -17,42 +17,37 @@ Technical Requirements
 ======================
 
 - A Raspberry Pi 2/3
-- A USB Speakerphone with built-in echo cancellation 
+- A USB Speakerphone with built-in echo cancellation, or, a I2S Soundcard with Mic Input
 - Ethernet cable with some internet (>1 MBit Upload recommended). do yourself a favor and skip wifi :)
 
 
+Community
+=========
 
-
-Community Requirements
-======================
-
-Learn here how to become part of the multifactory network...
-
-    Shared Workingspaces
-
-    Hackbases
-
-
+[Learn here how to become part of the multifactory network...](MultifactoryModel.md)
 
 
 Features
 --------
 
-    SIP Video Soft-Phone implementation based baresip/libre sip stack
-
-    Audio codecs: Opus, PCM/8000, Speex
-
-    Video codec VP8/VP9 (PC), H.264 (Pending RPi HW Implementation)
-
-    BSD-licensed codebase, lean, modular C codebase
+- SIP Video Soft-Phone implementation based baresip/libre sip stack
+- Audio codecs: Opus, PCM/8000, Speex
+- Video codec VP8/VP9 (PC), H.264 (Pending RPi HW Implementation)
+- BSD-licensed codebase, lean, modular C codebase
 
 
 Development  
 ===========
 
-The development of ewindow is happening at  Github
+The development of ewindow is focussing on two parts:
 
-$ git clone https://github.com/eleKtronicwindow/meta
+1) Baresip extensions for Raspberry Pi
+
+    git clone https://github.com/eleKtronicwindow/baresip
+
+2) Integration and User Interface scripting
+
+    git clone https://github.com/strfry/baresip
 
 
 Download  
@@ -127,5 +122,11 @@ Next code rafting
 ==============
 
 
+
+
+# Stuff
+
+[Unfinished Readme](README.md)
+[Old D Hackpad](Hackpad-D-export-09Dec2016.html)
 
 
