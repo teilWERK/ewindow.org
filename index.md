@@ -6,7 +6,7 @@ title: THE ELECTRONIC WINDOW
 
 The electronic window is a free software project,
 
-The e-window is part of a multi-level connectivity system between shared working environments: the [Multifactory Network.](https://windowthroughwall.hackpad.com/ieoqMr6Qvph#Multifactory-Network.)
+The e-window is part of a multi-level connectivity system between shared working environments: the [Multifactory Network.](MultiFactory.html)
 
 The "electronic window" is a direct way to establish connections between people who work in different cities. Just imagine a window trough the wall. You just go to the coffee-break area, or to the café, and you can see other people from another space, talk to them, exchange ideas, give and get suggestions on what you’re doing. In every space which is part of the network there is a window.
 
@@ -52,9 +52,7 @@ and to protect the freedom of all of us.
 
 # How to become part of the network?
 
-[Learn more about the multifactory network...](MultifactoryModel.md)
-
-
+[Learn more about the multifactory network...](MultifactoryModel)
 
 # Features
 
@@ -71,13 +69,8 @@ The documentation is mostly unwritten, our outdated.
 These Links point to pad dumps, mostly old development notes that need
 to be converted into a useful manual, step-by-step
 
-- [EWindow Technical Manual - Part 1 - Network Architecture](manual/EWindow-1.md)
-- [EWindow Technical Manual - Notes on FreeBSD](manual/EWindow-on-the-FreeBSD.md)
-- [EWindow DevLog - ](manual/EWindow-on-the-FreeBSD.md)
-- [EWindow Technical Manual - Notes on FreeBSD](manual/EWindow-on-the-FreeBSD.md)
-- [Bill of Materials](manual/EWindow-BOM.md)
-
-
+- [Part 1 - Network Architecture](manual/EWindow-1)
+- [Bill of Materials](manual/EWindow-BOM)
 
 Development  
 ===========
@@ -96,6 +89,11 @@ The development of ewindow is focussing on two parts:
 
     git clone https://github.com/eleKtronicwindow/eleKtronicwindow.github.io
 
+!<--
+# Stuff
+
+[Old D Hackpad](Hackpad-D-export-09Dec2016.html)
+
 
 Download  
 ========
@@ -110,12 +108,4 @@ by following these instructions:
 If you are a shared workspace and you are part of the MULTIFACTORY NETWORK
 download it here and contact us here fore receiving the password to access the network.
 
-
-
-
-# Stuff
-
-[Unfinished Readme](README.md)
-[Old D Hackpad](Hackpad-D-export-09Dec2016.html)
-
-
+-->
