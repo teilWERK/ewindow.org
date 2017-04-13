@@ -1,49 +1,37 @@
-EWindow Part 1 - Network Architecture
-=====================================
+---
+title: EWindow Part 1 - Network Architecture
+---
 
-PeerVPN Cleanup
-===============
+The EWindow is designed to be part of a VPN (Virtual Private Network),
+representing the local cluster of trusted partner-spaces.
 
-Next Steps:
-- Change VPN Key, do not have it in Github
-- Move this documentation to own pad infrastructure
-- "How to set up your EWindow Network"
+# PeerVPN
+
+Currently we use [PeerVPN](https://github.com/peervpn/peervpn)
+It is a lightweight Layer-2 (TAP Device) Virtual Network.
+Encryption is based on a PSK (pre-shared key)
+
+# Future Work
+
+[cjdns](https://github.com/cjdelisle/cjdns)
+
+# Basic Ideas
 
 
-## IPv6 Discovery
 
-Server:
-    socat UDP6-RECVFROM:6666,fork EXEC:hostname
+## Echt dezentrales Netwerk / Truly decentral networking
 
-client:
-    socat STDOUT "UDP6-DATAGRAM:[ff02::1%tap0]:6666"
+[Link Collection @C3D2](https://wiki.c3d2.de/Echt_Dezentrales_Netz/en)
 
-## Multicast DNS
+# De-centralized Network Architecture
 
-Service Discovery is done through multicast DNS, like described in 
-https://tools.ietf.org/html/draft-lee-sip-dns-sd-uri-03#section-3
-#TODO read RFC-draft-lee-sip-dns-sd-uri-3
+## Links
+cjdns paper: https://github.com/cjdelisle/cjdns/blob/master/doc/Whitepaper.md
 
-FreeBSD Experience:
-  pkg install mdnsd -> installs only mhttp and mquery tools
-  pkg install mDNSResponder -> the big ugly Apple thing
-  pkg install avahi -> Don't even think of it
+https://projectedn.wordpress.com/cutting-edge-technologies/
 
------------------------------
-OpenBSD mDNS implementation: http://www.haesbaert.org/openmdns/
 
-Suddendly appeared in pkg! // Needs IPv4 Address
-pkg install openmsnd
-
-    mdnsctl browse
-
------------------------------------------------------------------
-mDNSResponder:
-* User mDNSResponderPosix on FreeBSD for more options:
-    mDNSResponderPosix -f mdns.conf -
-
-https://forums.freebsd.org/threads/54465/ -> If you use mDNSResponder you need dns/mDNSResponder_nss for name resolution.
-
+[HyperBorea CJDNS Network](https://hyperboria.net/)
 
 -----------------------------------------------------------------
 

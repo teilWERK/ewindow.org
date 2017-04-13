@@ -1,16 +1,4 @@
-# De-centralized Network Architecture
-
-## Links
-https://hyperboria.net/
-cjdns paper: https://github.com/cjdelisle/cjdns/blob/master/doc/Whitepaper.md
-
-#Research BRTP Protocol -> Lightweight alternative to SIP?
-http://www.barix.com/fileadmin/data/howto/Howto_Instreamer-Exstreamer_v111.pdf
-
-C3D2 https://wiki.c3d2.de/EDN
-
-https://projectedn.wordpress.com/cutting-edge-technologies/
-(Video-) Telephony and Streaming
+### TODO: Read & evaluate (Video-) Telephony and Streaming
 
     Tox, https://en.wikipedia.org/wiki/Tox_%28protocol%29
 
@@ -36,3 +24,47 @@ http://mesh.philly2600.net/?p=54
 
     ./cjdroute
     
+
+
+## Network Host Discovery
+
+### IPv6 Discovery
+
+Server:
+    socat UDP6-RECVFROM:6666,fork EXEC:hostname
+
+client:
+    socat STDOUT "UDP6-DATAGRAM:[ff02::1%tap0]:6666"
+
+## Multicast DNS
+
+\[WARNING: Future Work, this is not implemented yet\]
+
+### TOOD Try Avahi
+
+Service Discovery is done through multicast DNS, like described in 
+https://tools.ietf.org/html/draft-lee-sip-dns-sd-uri-03#section-3
+####TODO read RFC-draft-lee-sip-dns-sd-uri-3
+
+FreeBSD Experience:
+  pkg install mdnsd -> installs only mhttp and mquery tools
+  pkg install mDNSResponder -> the big ugly Apple thing
+  pkg install avahi -> Don't even think of it
+
+-----------------------------
+OpenBSD mDNS implementation: http://www.haesbaert.org/openmdns/
+
+Suddendly appeared in pkg! // Needs IPv4 Address
+pkg install openmsnd
+
+    mdnsctl browse
+
+-----------------------------------------------------------------
+mDNSResponder:
+* User mDNSResponderPosix on FreeBSD for more options:
+    mDNSResponderPosix -f mdns.conf -
+
+https://forums.freebsd.org/threads/54465/ -> If you use mDNSResponder you need dns/mDNSResponder_nss for name resolution.
+
+
+

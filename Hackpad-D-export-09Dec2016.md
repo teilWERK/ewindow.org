@@ -7,46 +7,6 @@
 </head>
 # 
 
-## THE ELECTRONIC WINDOW
-
-## What is it?
-
-&nbsp;
-
-The e-window is part of a multi-level connectivity system between shared working environments: the [Multifactory Network.](https://windowthroughwall.hackpad.com/ieoqMr6Qvph#Multifactory-Network.)
-
-The "electronic window" is a direct way to establish connections between people who work in different cities. Just imagine a window trough the wall. You just go to the coffee-break area, or to the café, and you can see other people from another space, talk to them, exchange ideas, give and get suggestions on what you’re doing. In every space which is part of the network there is a window.
-
-&nbsp;
-
-## How does it work?
-
-&nbsp;
-
-Each&nbsp; window can be opened on another one, but just one connection can be&nbsp; established for each pair of windows (nevertheless, it’s possible to&nbsp; choose another space just pushing a button).
-
-Each&nbsp; e-window is open all day long from one space to another one. If there&nbsp; are two persons close to the two windows, they can talk and interact.
-
-E-windows&nbsp; are based on low-cost technologies (Raspberry Pie, a flat monitor, a&nbsp; webcam, Linux and a few other electronics) and are intended to be just&nbsp; e-windows: they don’t have keyboard, mouse, browser, and other programs&nbsp; installed.
-
-If people want to meet in front of the window, they act exactly as if they would plan to meet someone at the bar:
-
-A&nbsp; – meet people by chance: you go, take a coffee, and start talking to&nbsp; someone you don’t know, or someone you know and is taking a coffee at&nbsp; the same time
-
-B – you send a message to someone and just say “see you in 5 minutes at the e-window”
-
-People&nbsp; can meet and start business relationships as well. In what differs&nbsp; compared to a skype call? To make a skype call, you have to ALREADY know&nbsp; who you are calling, you need their contact, and so on. With the&nbsp; electronic window, you can easily interact with people you never met&nbsp; before (but maybe who you think could be interesting, because you’ve&nbsp; seen their video-tutorial-presentation).
-
-some ref:
-
-![](Hackpad-D-export-09Dec2016_files/multifactory.png)
-
-the typical CASE di RINGHIERA, in North Italy. Every window is one in front of the other one and interaction is much more than in a flat.
-
-![](Hackpad-D-export-09Dec2016_files/multifactory.jpg)
-
-Big windows at the ground floor typical in North Europe. They are open to the street or to the landscape. You can watch inside others homes.
-
 &nbsp;
 
 ## How does it appear?
