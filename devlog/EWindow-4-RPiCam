@@ -1,8 +1,3 @@
-USB Webcam on RaspBSD
-=====================
-
-pkg install webcamd -> install/load/autoload cuse4bsd (requires aarch64/armv8)
-
 
 NEXT: The Operation
 ===================
@@ -476,4 +471,25 @@ Links
 =====
 
 https://www.opennet.ru/opennews/art.shtml?num=43201
+
+
+
+
+
+Video Input Converter
+=====================
+
+Interesting to have this to convert from PAL Camera to Raspberry CSI Camera Interface.
+DIY Solution (20 ICs for  80$): https://de.aliexpress.com/item/TC358743XBG-358743G-BGA-NFTX3/32715128363.html
+Datasheet: https://toshiba.semicon-storage.com/info/docget.jsp?did=22898&prodName=TC358743XBG
+
+Compare to Analog Devices' PAL to MIPI Converter IC
+
+## Reseach: CSI Support - Parallel vs. Serial - MIPI?
+
+## HDMI to CSI Adapter:
+http://auvidea.eu/
+http://auvidea.eu/b100-hdmi-to-csi-2-bridge/    -> MarkusBec -> All Raspberry Pi models are not supported (yet)    software wise, as the CSI-2 interface of the Raspberry Pi models has   not  disclosed  m(
+http://auvidea.eu/b101-hdmi-to-csi-2-bridge-15-pin-fpc/ 70$
+
 
