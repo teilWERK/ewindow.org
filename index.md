@@ -27,7 +27,7 @@ A&nbsp; – meet people by chance: you go, take a coffee, and start talking to&n
 
 B – you send a message to someone and just say “see you in 5 minutes at the e-window”
 
-People&nbsp; can meet and start business relationships as well. In what differs&nbsp; compared to a skype call? To make a skype call, you have to ALREADY know&nbsp; who you are calling, you need their contact, and so on. With the&nbsp; electronic window, you can easily interact with people you never met&nbsp; before (but maybe who you think could be interesting, because you’ve&nbsp; seen their video-tutorial-presentation).
+People can meet and start business relationships as well. In what differs&nbsp; compared to a skype call? To make a skype call, you have to ALREADY know&nbsp; who you are calling, you need their contact, and so on. With the&nbsp; electronic window, you can easily interact with people you never met&nbsp; before (but maybe who you think could be interesting, because you’ve seen their video-tutorial-presentation).
 
 
 ![](Hackpad-D-export-09Dec2016_files/multifactory.jpg)
@@ -37,7 +37,13 @@ the typical CASE di RINGHIERA, in North Italy. Every window is one in front of t
 ## How is it implemented?
 ### Why don't you just use WebRTC?
 
-# The Goal / Our values
+# The Goal
+
+
+
+[Learn more about the multifactory network...](MultifactoryModel)
+
+# / Our values
 
 We strongly believe that a free software communication platform is
 really needed to protect freedom of speech and e-democracy.
@@ -49,10 +55,12 @@ The goal is not just to have a videochat system for Makerspaces and FabLabs, but
 and to protect the freedom of all of us.
 
 
-
 # How to become part of the network?
 
-[Learn more about the multifactory network...](MultifactoryModel)
+
+
+# What
+
 
 # Features
 
@@ -102,44 +110,49 @@ starting from Raspbian Jessie Lite former
 
 ## MakeMunich Cluster
 
-There is a different development line based off WebRTC.
+
+There is a different development line based on WebRTC with modern browser.
+
+[https://github.com/munichmakerlab/ewindow_webrtc]
+
+It is told to run on Raspberry Pi 3 with Chrome and tolerable performance.
 
 
-!<--
-# Stuff
+Backlog / Challenges
+====================
 
-[Old D Hackpad](Hackpad-D-export-09Dec2016.html)
-=======
-
-
-Challenges
-==========
-
-* Using the native Raspberry Pi VideoCore4 HW Acceleration
-** DONE: The omx vidisp module has been merged into baresip upstream
+* Fix up WebRTC <> baresip interaction -> [WebWindow]
+* Using the native Raspberry Pi VideoCore4 HW Acceleration with OpenMAX
+** Write a raspicam camera driver
+** Integrate H264 decoder in omx module
+* Security
+** Generate PeerVPN config with PSK from end-user dialog
 * Audio
 ** Real-Time/Latency
-** Accoustic Echo
+** Accoustic Echo Cancellation
 ** CPU Load of Opus codec
 ** USB Speakerphones (Plantronics 610, Jabra 410) currently crashing into Raspi's tiny USB Host
 *** TODO: Try on FreeBSD
 ** Interaction with SIP hardware phones?
 *** IDEA: Use the Raspberry Pi (1) as a video-adding proxy on a ip phone
 ** Hardware design of Raspi I2S Speakerphone Hat?
-*** TODO: This will need webrtc_aec baresip plugin
 
 
 Download  
 ========
 
 The finished SD Card Image is not available yet.
-We lack a Continous Integration System to cross-build a lightweight
-free operating system for the Raspberry Pi.
 
-The previous state might be partially reconstructed,
-by following these instructions:
+Preview Alpha 0.2 from 20th April 2017 can be downloaded here:
+http://ewindow.org/ewindow-v0.2-20Apr17.zip
 
-If you are a shared workspace and you are part of the MULTIFACTORY NETWORK
-download it here and contact us here fore receiving the password to access the network.
+ATTENTION: This version is not secure yet. The access keys are stored on Github. It might potentially compromise your network!
+Regard it as experimental.
+Help in making the VPN more secure and functional would be super-welcome.
+Please contact us if you want to help building a Continous Integration environment. 
+See [teilWERK/Image] for instructions, how this image was built from Raspbian Lite on a QEMU-ARM System.
 
--->
+Contact
+=======
+
+Jonathan Sieber - mail@strfry.org
