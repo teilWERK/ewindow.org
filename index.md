@@ -79,6 +79,7 @@ The development of ewindow is focussing on two parts:
     (upstream: https://github.com/alfredh/baresip )
 
 2) Build Integration and dialog-based User Interface scripts
+
     git clone https://github.com/strfry/ewindow
 
 ## Munich Multifactory Cluster
