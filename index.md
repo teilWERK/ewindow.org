@@ -2,65 +2,57 @@
 title: THE ELECTRONIC WINDOW
 ---
 
+
+![the typical CASE di RINGHIERA, in North Italy. Every window is one in front of the other one and interaction is much more than in a flat.](Hackpad-D-export-09Dec2016_files/multifactory.jpg)
+
 ## What is it?
 
-The electronic window is a free software project,
 
-The e-window is part of a multi-level connectivity system between shared working environments: the [Multifactory Network.](MultiFactory.html)
+The EWindow is videochat device that runs 24/7 in a public space.
+The goal is a decentralized, secure 24/7 audiovisual communication system --> Like a window through a wall
 
-The "electronic window" is a direct way to establish connections between people who work in different cities. Just imagine a window trough the wall. You just go to the coffee-break area, or to the café, and you can see other people from another space, talk to them, exchange ideas, give and get suggestions on what you’re doing. In every space which is part of the network there is a window.
+The "electronic window" is a direct way to establish connections between rooms and spaces. 
+Just imagine a window trough the wall. You just go to the coffee-break area, or to the café, and you can see other people from another space, talk to them, exchange ideas, give and get suggestions on what you’re doing. 
 
-The EWindow is an attempt to understand internet video telephony,
-building a new decentralized, encrypted 24/7 audiovisual bi-directional link --> A Window
+It is intended to link between public/open work/hack/make/share Spaces in different cities. We are building a multi-level network of such spaces, a community of real people, that are making a living in the collaborative economy --> the [Multifactory Network.](MultiFactory.html)
+
 
 ## How does it work?
 
-Each window can be opened on another one, but just one connection can be&nbsp; established for each pair of windows (nevertheless, it’s possible to&nbsp; choose another space just pushing a button).
+With a press of a button, the EWindow will connect to another in the same network.
+Once the Window is opened, there is a 1:1 encrypted connection.
 
-Each&nbsp; e-window is open all day long from one space to another one. If there&nbsp; are two persons close to the two windows, they can talk and interact.
+Each e-window is open all day long from one space to another one. If there are two persons close to the two windows, they can talk and interact.
 
-E-windows&nbsp; are based on low-cost technologies (Raspberry Pi, a flat monitor, a&nbsp; webcam, Linux and a few other electronics) and are intended to be just&nbsp; e-windows: they don’t have keyboard, mouse, browser, and other programs&nbsp; installed.
+The E-windows can be set up with low-cost technologies (Raspberry Pi, a Speakerphone, flat monitor, webcam) and is a dedicated single-app device, not a desktop computer, not a smartphone.
 
 If people want to meet in front of the window, they act exactly as if they would plan to meet someone at the bar:
 
-A&nbsp; – meet people by chance: you go, take a coffee, and start talking to&nbsp; someone you don’t know, or someone you know and is taking a coffee at&nbsp; the same time
+A – meet people by chance: you go, take a coffee, and start talking to someone you don’t know, or someone you know and is taking a coffee at the same time
 
 B – you send a message to someone and just say “see you in 5 minutes at the e-window”
 
-People can meet and start business relationships as well. In what differs&nbsp; compared to a skype call? To make a skype call, you have to ALREADY know&nbsp; who you are calling, you need their contact, and so on. With the&nbsp; electronic window, you can easily interact with people you never met&nbsp; before (but maybe who you think could be interesting, because you’ve seen their video-tutorial-presentation).
+People can meet and start business relationships as well. In what differs compared to a skype call? To make a skype call, you have to ALREADY know who you are calling, you need their contact, and so on. With the electronic window, you can easily interact with people you never met before (but maybe who you think could be interesting, because you’ve seen their video-tutorial-presentation).
 
-
-![](Hackpad-D-export-09Dec2016_files/multifactory.jpg)
-
-the typical CASE di RINGHIERA, in North Italy. Every window is one in front of the other one and interaction is much more than in a flat.
-
-## How is it implemented?
-### Why don't you just use WebRTC?
-
-# The Goal
-
-
-
-[Learn more about the multifactory network...](MultifactoryModel)
-
-# / Our values
-
-We strongly believe that a free software communication platform is
-really needed to protect freedom of speech and e-democracy.
-Commercial software which you can use for free is not a gift. It’s a Trojan horse.
-Systems based on proprietary code leave users unprotected and their centralized architectures expose people and  their data.
-So, for us is mandatory to have a free and open system and we understood
-that it can only be developed by a huge and diversified group of developers.
-The goal is not just to have a videochat system for Makerspaces and FabLabs, but to increase the security
-and to protect the freedom of all of us.
 
 
 # How to become part of the network?
 
+At the current public experimental stage, you can download the image and install it to a Raspberry Pi (3)
 
 
-# What
 
+Download  
+========
+
+Preview Alpha 0.2 from 20th April 2017 can be downloaded here:
+http://ewindow.org/ewindow-v0.2-20Apr17.zip
+
+ATTENTION: This version is not secure yet. The access keys are stored on Github. It might potentially compromise your network!
+Regard it as experimental.
+Help in making the VPN more secure and functional would be super-welcome.
+Please contact us if you want to help building a Continous Integration environment. 
+See [teilWERK/Image] for instructions, how this image was built from Raspbian Lite on a QEMU-ARM System.
 
 # Features
 
@@ -71,86 +63,48 @@ and to protect the freedom of all of us.
 - Supports Raspberry Pi hardware-accelerated video output (OpenMAX)
 - Command Line Interface
 
-# Documentation
+
+Development  
+===========
+
+## How is it implemented?
+
+It's based on a cheap Single Board Computer. --> [Bill of Materials](manual/EWindow-BOM)
+
+The development of ewindow is focussing on two parts:
+
+1) Build a lightweight SIP Video Phone with Raspberry Pi support
+
+    git clone https://github.com/eleKtronicwindow/baresip
+    (upstream: https://github.com/alfredh/baresip )
+
+2) Build Integration and dialog-based User Interface scripts
+    git clone https://github.com/strfry/ewindow
+
+## Munich Multifactory Cluster
+
+There also is a different development line based on WebRTC, by to Munich Multifactory Cluster:
+
+[https://github.com/munichmakerlab/ewindow_webrtc]
+
+It is told to run on Raspberry Pi 3 with Chrome.
+
+In the future, these lines might be made interoperable again.
+
+## Documentation
 
 The documentation is mostly unwritten, our outdated.
 These Links point to pad dumps, mostly old development notes that need
 to be converted into a useful manual, step-by-step
 
 - [Part 1 - Network Architecture](manual/EWindow-1)
-- [Bill of Materials](manual/EWindow-BOM)
+- [Notes of using baresip with WebRTC Client](devlog/EWindow-7-WebRTC)
 
-# DevLog
+### Why don't you just use WebRTC?
 
-[Notes of using baresip with WebRTC Client](devlog/EWindow-7-WebRTC)
-
-Development  
-===========
-
-The development of ewindow is focussing on two parts:
-
-1) Baresip extensions for Raspberry Pi
-
-    git clone https://github.com/eleKtronicwindow/baresip
-
-2) Integration and User Interface scripting
-
-	The plan is to build a native Raspberry Pi Application
-	based on lib[baresip](https://github.com/alfredh/baresip)
-
-This repository is points to a bunch of install/setup scripts,
-starting from Raspbian Jessie Lite former
-[daemontools](https://cr.yp.to/daemontools.html) scripts example configs and :
-
-    git clone https://github.com/strfry/ewindow
-
-3) WebSite and Documentation
-
-    git clone https://github.com/eleKtronicwindow/eleKtronicwindow.github.io
-
-## MakeMunich Cluster
+While modern WebBrowser work on the Raspberry Pi, the do not use the native video processing capabilities of the VideoCore.
 
 
-There is a different development line based on WebRTC with modern browser.
-
-[https://github.com/munichmakerlab/ewindow_webrtc]
-
-It is told to run on Raspberry Pi 3 with Chrome and tolerable performance.
-
-
-Backlog / Challenges
-====================
-
-* Fix up WebRTC <> baresip interaction -> [WebWindow]
-* Using the native Raspberry Pi VideoCore4 HW Acceleration with OpenMAX
-** Write a raspicam camera driver
-** Integrate H264 decoder in omx module
-* Security
-** Generate PeerVPN config with PSK from end-user dialog
-* Audio
-** Real-Time/Latency
-** Accoustic Echo Cancellation
-** CPU Load of Opus codec
-** USB Speakerphones (Plantronics 610, Jabra 410) currently crashing into Raspi's tiny USB Host
-*** TODO: Try on FreeBSD
-** Interaction with SIP hardware phones?
-*** IDEA: Use the Raspberry Pi (1) as a video-adding proxy on a ip phone
-** Hardware design of Raspi I2S Speakerphone Hat?
-
-
-Download  
-========
-
-The finished SD Card Image is not available yet.
-
-Preview Alpha 0.2 from 20th April 2017 can be downloaded here:
-http://ewindow.org/ewindow-v0.2-20Apr17.zip
-
-ATTENTION: This version is not secure yet. The access keys are stored on Github. It might potentially compromise your network!
-Regard it as experimental.
-Help in making the VPN more secure and functional would be super-welcome.
-Please contact us if you want to help building a Continous Integration environment. 
-See [teilWERK/Image] for instructions, how this image was built from Raspbian Lite on a QEMU-ARM System.
 
 Contact
 =======
