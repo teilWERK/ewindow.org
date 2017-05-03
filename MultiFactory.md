@@ -5,6 +5,8 @@ If you belong to a shared workspace into the network you will find an eiwindow i
 
 You just go to the coffee-break area, or to the café, and you can see other people from another space, talk to them, exchange ideas, give and get suggestions on what you’re doing. 
 
+Each ewindow is open all day long between two spaces. If there are two persons close to the two windows, they can talk and interact.
+
 If people want to meet in front of the ewindow, they act exactly as if they would plan to meet someone at the bar:
 
 A – meet people by chance: you go, take a coffee, and start talking to someone you don’t know, or someone you know and who is taking a coffee at the same time
