@@ -1,25 +1,25 @@
 ---
 title: THE ELECTRONIC WINDOW
 ---
+## What is it?
 
+The EWindow is a video chat device that runs 24/7 in a shared workspace space.
+The goal is a decentralized, secure 24/7 audiovisual communication system --> Like a window in a wall
 
 ![the typical CASE di RINGHIERA, in North Italy. Every window is one in front of the other one and interaction is much more than in a flat.](Hackpad-D-export-09Dec2016_files/multifactory.jpg)
 
-## What is it?
+# Features
 
-
-The EWindow is a video chat device that runs 24/7 in a public space.
-The goal is a decentralized, secure 24/7 audiovisual communication system --> Like a window in a wall
-
-The "electronic window" is a direct way to establish connections between rooms and spaces. 
-Just imagine a window in the wall. You just go to the coffee-break area, or to the café, and you can see other people from another space, talk to them, exchange ideas, give and get suggestions on what you’re doing. 
-
-It is intended to link between public/open work/hack/make/share spaces in different cities. We are building a multi-level network of such spaces, a community of real people, who make a living in the collaborative economy --> the [Multifactory Network.](MultiFactory.md)
-
+- SIP Video Soft-Phone implementation based baresip/libre sip stack
+- Audio codecs: Opus, PCM/8000, Speex
+- Video codec VP8/VP9 (PC), H.264 (Pending RPi HW Implementation)
+- BSD-licensed codebase, lean, modular C codebase
+- Supports Raspberry Pi hardware-accelerated video output (OpenMAX)
+- Command Line Interface
 
 ## How does it work?
 
-With a press of a button, the EWindow will connect to another in the same network.
+With a press of a button, the EWindow will connect to another one in the same network.
 Once the Window is opened, there is a 1:1 encrypted connection.
 
 Each e-window is open all day long between two spaces. If there are two persons close to the two windows, they can talk and interact.
@@ -35,13 +35,29 @@ B – you send a message to someone and just say “see you in 5 minutes at the 
 People can meet and start business relationships as well. And why don't just use skype? To make a skype call, you have to ALREADY know who you are calling, you need their contact. With the electronic window, you can easily interact with people you never met before. But you might have seen their video tutorial online...
 
 
+# Use it for your network 
+The "electronic window" is a direct way to establish connections between rooms and spaces. 
+Just imagine a window in the wall.
+You can use the ewindow in a closed network, as you like. 
+If you need to have a long lasting video communication with someone for any reason, do it.
 
-# How to become part of the network?
+
+
+# How to become part of the multifactory network?
+
+If you are member of a collaborative shared workspace (like a fablab, a makerspace or a shared studio) and you would like to join the multifactory network. We are open to meet you!
+
+You just go to the coffee-break area, or to the café, and you can see other people from another space, talk to them, exchange ideas, give and get suggestions on what you’re doing. 
+
+It is intended to link between public/open work/hack/make/share spaces in different cities. We are building a multi-level network of such spaces, a community of real people, who make a living in the collaborative economy --> the [Multifactory Network.](MultiFactory.md)
+
+If a shared workspace want to join the network some members on behalf of the space has to:
+1. visit another space already into the network
+2. agree with the FREE EXCHANGE PROGRAMM rules
+3. being visited by one member of one space already into the network
 
 Right now you just download and install the image to a Raspberry Pi (3).
 In the future passwords and secure connectivity are planned and this will change the way you become part of the network.
-
-
 
 Download  
 ========
@@ -55,14 +71,7 @@ Help in making the VPN more secure and functional would be super-welcome.
 Please contact us if you want to help building a Continous Integration environment. 
 See [https://github.com/teilWERK/Image] for instructions, how this image was built from Raspbian Lite on a QEMU-ARM System.
 
-# Features
 
-- SIP Video Soft-Phone implementation based baresip/libre sip stack
-- Audio codecs: Opus, PCM/8000, Speex
-- Video codec VP8/VP9 (PC), H.264 (Pending RPi HW Implementation)
-- BSD-licensed codebase, lean, modular C codebase
-- Supports Raspberry Pi hardware-accelerated video output (OpenMAX)
-- Command Line Interface
 
 
 Development  
