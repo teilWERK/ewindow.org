@@ -22,11 +22,7 @@ The goal is a decentralized, secure 24/7 audiovisual communication system --> Li
 With a press of a button, the EWindow will connect to another one in the same network.
 Once the Window is opened, there is a 1:1 encrypted connection.
 
-Each e-window is open all day long between two spaces. If there are two persons close to the two windows, they can talk and interact.
-
 The E-windows can be set up with low-cost technologies (Raspberry Pi, a Speakerphone, flat monitor, webcam) and is a dedicated single-app device, not a desktop computer, not a smartphone.
-
-
 
 People can meet and start business relationships as well. And why don't just use skype? To make a skype call, you have to ALREADY know who you are calling, you need their contact. With the electronic window, you can easily interact with people you never met before. But you might have seen their video tutorial online...
 
