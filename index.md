@@ -6,8 +6,6 @@ title: THE ELECTRONIC WINDOW
 The EWindow is a video chat device that runs 24/7 in a shared workspace space.
 The goal is a decentralized, secure 24/7 audiovisual communication system --> Like a window in a wall
 
-![the typical CASE di RINGHIERA, in North Italy. Every window is one in front of the other one and interaction is much more than in a flat.](Hackpad-D-export-09Dec2016_files/multifactory.jpg)
-
 # Features
 
 - SIP Video Soft-Phone implementation based baresip/libre sip stack
@@ -16,6 +14,8 @@ The goal is a decentralized, secure 24/7 audiovisual communication system --> Li
 - BSD-licensed codebase, lean, modular C codebase
 - Supports Raspberry Pi hardware-accelerated video output (OpenMAX)
 - Command Line Interface
+
+![the typical CASE di RINGHIERA, in North Italy. Every window is one in front of the other one and interaction is much more than in a flat.](Hackpad-D-export-09Dec2016_files/multifactory.jpg)
 
 ## How does it work?
 
