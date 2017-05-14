@@ -3,8 +3,8 @@ title: THE ELECTRONIC WINDOW
 ---
 ## What is it?
 
-The EWindow is a video chat device that runs 24/7 in a shared workspace space.
-The goal is a decentralized, secure 24/7 audiovisual communication system --> Like a window in a wall
+The EWindow is a video chat device that runs 24/7 in a shared space.
+The goal is a decentralized, secure 24/7 audiovisual communication system --> Like a window in a wall.
 
 # Features
 
@@ -19,19 +19,19 @@ The goal is a decentralized, secure 24/7 audiovisual communication system --> Li
 
 ## How does it work?
 
+Every space has its own window in the common area, at the coffee break for example.
 With a press of a button, the EWindow will connect to another one in the same network.
 Once the Window is opened, there is a 1:1 encrypted connection.
 
 The E-windows can be set up with low-cost technologies (Raspberry Pi, a Speakerphone, flat monitor, webcam) and is a dedicated single-app device, not a desktop computer, not a smartphone.
 
-And why don't just use skype? To make a skype call, you have to ALREADY know who you are calling, you need their contact. With the electronic window, you can easily interact with people you never met before. But you might have seen their video tutorial online...
+And why don't just use skype or slack or any other existing video chats? To make a skype call, you have to ALREADY know who you are calling, you need their contact. With the electronic window, you can easily interact with people you never met before. But you might have seen their video tutorial online...
 
 
 # Use it for your network
 
 The "electronic window" is a direct way to establish connections between rooms and spaces. 
-Just imagine a window in the wall.
-If you need to have a long lasting video communication with someone for any reason, do it.
+If you need to have a long lasting video communication with someone for any reason, use it.
 You can use the ewindow in a closed network, as you like. 
 
 
@@ -103,11 +103,17 @@ More of this will be released step-by-step, once we get a grip of our pad infras
 
 ### Why don't you just use WebRTC?
 
-While modern WebBrowser work on the Raspberry Pi, the do not use the native video processing capabilities of the VideoCore.
+While modern WebBrowser work on the Raspberry Pi, they do not use the native video processing capabilities of the VideoCore.
 
+
+### Why FREE SOFTWARE?
+
+Also if it’s difficult to create such a working community, we strongly believe that a free software communication platform is really needed to protect freedom of speech and e-democracy. Commercial software which you can use for free is not a gift. It’s a Trojan horse. Systems based on proprietary codes live users unprotected and their centralized architectures expose people and their data.
+So, for us is mandatory to have a free and open system to connect autonomous workers around the world and we understood that it can only be developed by a huge and diversified group of developers. The goal is not just to have a videochat system for makerspaces and FabLabs, but to increase the security and to protect the freedom of all of us.
 
 
 Contact
 =======
 
 Jonathan Sieber - mail@strfry.org
+Lorenza Salati - lorenza@bigmagma.it
