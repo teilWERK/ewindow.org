@@ -15,13 +15,14 @@ The goal is a decentralized, secure 24/7 audiovisual communication system --> Li
 - Supports Raspberry Pi hardware-accelerated video output (OpenMAX)
 - Command Line Interface
 
-![the typical CASE di RINGHIERA, in North Italy. Every window is one in front of the other one and interaction is much more than in a flat.](Hackpad-D-export-09Dec2016_files/multifactory.jpg)
 
 ## How does it work?
 
+![the typical CASE di RINGHIERA, in North Italy. Every window is one in front of the other one and interaction is much more than in a flat.](Hackpad-D-export-09Dec2016_files/multifactory.jpg)
+
 Every space has its own window in the common area, at the coffee break for example.
 With a press of a button, the EWindow will connect to another one in the same network.
-Once the Window is opened, there is a 1:1 encrypted connection.
+Once the Window is opened, there is a # 1:1 encrypted connection #
 
 The E-windows can be set up with low-cost technologies (Raspberry Pi, a Speakerphone, flat monitor, webcam) and is a dedicated single-app device, not a desktop computer, not a smartphone.
 
