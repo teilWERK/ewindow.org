@@ -29,14 +29,21 @@ The E-windows can be set up with low-cost technologies (Raspberry Pi, a Speakerp
 And why don't just use skype or slack or any other existing video chats? To make a skype call, you have to ALREADY know who you are calling, you need their contact. With the electronic window, you can easily interact with people you never met before. But you might have seen their video tutorial online...
 
 
-# Use it for your network
+# Use it for your network: CROUDFUNDING CAMPAIGN
 
-The "electronic window" is a direct way to establish connections between rooms and spaces. 
-If you need to have a long lasting video communication with someone for any reason, use it.
-You can use the ewindow in a closed network, as you like. 
+The "electronic window" is a direct way to establish informal and non planned connections. 
+They can be useful for different situations.
+If you like this concept and you have a need to connect your coffee break area with that one of some partner of you. 
+We CAN HELP YOU.
+
+In order to finance the software development and future updates we are planning to launch a CROUDFUNDING CAMPAING.
+Our supporters will receive 2 or more ewindows to use in their own network.
+
+Subscribe to our newsletter to receive updates TO GET TO KNOW WHEN THE CROUDFUNDING CAMPAIGN WIL BE ONLINE.
 
 
-# How to become part of the multifactory network?
+
+# How to become part of our network: THE MULTIFACTORY NETWORK?
 
 Our goal is to permanently connect open work/hack/make/share spaces with similar attitude in different cities around the world.
 
