@@ -16,6 +16,26 @@ The goal is a decentralized, secure 24/7 audiovisual communication system --> Li
 - Command line interface
 
 
+Development  
+===========
+
+## How is it implemented?
+
+It's based on a cheap, single-board computer. --> [Bill of Materials](manual/EWindow-BOM.md)
+
+Development of the EWindow is focused on two parts:
+
+1) Building a lightweight SIP Video Phone with Raspberry Pi support
+
+    git clone https://github.com/eleKtronicwindow/baresip
+    (upstream: https://github.com/alfredh/baresip )
+
+2) Building integration and dialog-based user interface scripts
+
+    git clone https://github.com/strfry/ewindow
+    
+
+
 ## How does it work?
 
 ![the typical CASE di RINGHIERA, in North Italy. Every window is one in front of the other one and interaction is much more than in a flat.](Hackpad-D-export-09Dec2016_files/multifactory.jpg)
@@ -73,23 +93,7 @@ Please contact us if you want to help build a continous integration environment.
 See [https://github.com/teilWERK/Image] for instructions on how to build this image on a QEMU-ARM-based Raspbian Lite system.
 
 
-Development  
-===========
 
-## How is it implemented?
-
-It's based on a cheap, single-board computer. --> [Bill of Materials](manual/EWindow-BOM.md)
-
-Development of the EWindow is focused on two parts:
-
-1) Building a lightweight SIP Video Phone with Raspberry Pi support
-
-    git clone https://github.com/eleKtronicwindow/baresip
-    (upstream: https://github.com/alfredh/baresip )
-
-2) Building integration and dialog-based user interface scripts
-
-    git clone https://github.com/strfry/ewindow
 
 ## Munich Multifactory Cluster
 
