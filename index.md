@@ -6,6 +6,8 @@ title: THE ELECTRONIC WINDOW
 The EWindow is a video chat device that runs 24/7 in a shared space.
 The goal is a decentralized, secure 24/7 audiovisual communication system --> Like a window in a wall.
 
+![A view into the Fablab Munich](images/EWindow_HEi_VOW.jpg)
+
 # Features
 
 - SIP video softphone implementation based on a baresip/libre sip stack
@@ -86,7 +88,9 @@ In the future, passwords and secure connectivity are planned and this will chang
 Download  
 ========
 
-Preview Alpha 0.2 from 20th April 2017 can be downloaded here:
+THE RASPBERRY PI IMAGE BELOW IS OUTDATED. Write me a mail to get notified when the new version is released
+
+~~Preview Alpha 0.2 from 20th April 2017 can be downloaded here:~~
 http://ewindow.org/ewindow-v0.2-20Apr17.zip
 
 ATTENTION: This version is not secure. The access keys are stored on Github. It could potentially compromise your network!
@@ -96,34 +100,15 @@ Please contact us if you want to help build a continous integration environment.
 See [https://github.com/teilWERK/Image] for instructions on how to build this image on a QEMU-ARM-based Raspbian Lite system.
 
 
-
-
-## Munich Multifactory Cluster
-
-A different line of development is happening in the MunichMakerLab:
-
-[https://github.com/munichmakerlab/ewindow_webrtc]
-
-It is said to run on Raspberry Pi 3 with Chrome.
-
-In the future, these lines might be made interoperable again.
-
 ## Documentation
 
 The relevant information is hidden in a, obfuscated mix of documentation and development notes on our etherpad server.
 More of this will be released step-by-step once we get a grip on our pad infrastructure. ;-)
 
-- [Part 1 - Network Architecture](manual/EWindow-1.md)
-- [Notes of using baresip with WebRTC Client](devlog/EWindow-7-WebRTC.md)
 
 ### Why don't you just use WebRTC?
 
 While modern web browsers work on the Raspberry Pi, they don't use the native video processing capabilities of the VideoCore.
-
-
-### Why FREE SOFTWARE?
-
-Though it may be difficult to create such a working community, we strongly believe that a free software communication platform is necessary to protect freedom of speech and e-democracy. Commercial software which you can use for free is not a gift: it’s a Trojan horse. Systems based on proprietary code leave users unprotected and their centralized architectures, people, and data exposed. So for us it's mandatory to have a free and open system to connect autonomous workers around the world, and we understand that it can only be developed by a huge and diversified group of developers. The goal isn't to just have a video chat system for makerspaces and FabLabs, but to secure and protect all of our freedom.
 
 
 Contact
