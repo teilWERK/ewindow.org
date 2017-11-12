@@ -25,14 +25,17 @@ It's based on a cheap, single-board computer. --> [Bill of Materials](manual/EWi
 
 Development of the EWindow is focused on two parts:
 
-1) Building a lightweight SIP Video Phone with Raspberry Pi support
+1) Enhancing a lightweight SIP Video Phone with Raspberry Pi support
 
-    git clone https://github.com/eleKtronicwindow/baresip
-    (upstream: https://github.com/alfredh/baresip )
+    git clone https://github.com/alfredh/baresip
 
-2) Building integration and dialog-based user interface scripts
+2) A small python script that handles automatic connection buildup
 
-    git clone https://github.com/strfry/ewindow
+    git clone -b python https://github.com/strfry/ewindow
+    
+3) A Qt/QML-based user interface with support for hardware buttons
+
+    git clone https://github.com/strfry/ewindowui
     
 
 
