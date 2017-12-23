@@ -8,38 +8,58 @@ The goal is a decentralized, secure 24/7 audiovisual communication system --> Li
 
 ![A view into the Fablab Munich](images/EWindow_HEi_VOW.jpg)
 
-# Features
+## What do i need to build it?
 
-- SIP video softphone implementation based on a baresip/libre sip stack
-- Audio codecs: Opus, PCM/8000, Speex
-- Video codecs: VP8/VP9 (PC), H.264 (Pending RPi HW Implementation)
-- BSD-licensed, lean, and modular C codebase
-- Supports Raspberry Pi hardware-accelerated video output (OpenMAX)
-- Command line interface
+- A Raspberry Pi (2 or 3)
+- 2 GiB  SD Card
+- Monitor (with Cable)
+- Speakers
+- USB Webcam with microphones
+- A button and a bit of jumpwire
 
+If you want to improve the audio/video quality:
+- Raspberry PiCam (wide-angle version recommended)
+- USB Speakerphone (will replace speakers and microphone)
 
 Download  
 ========
 
-
 [http://ewindow.org/ewindow-v0.3.zip]: http://ewindow.org/ewindow-v0.3.zip "Get the Image for Raspberry Pi here"
 [http://ewindow.org/ewindow-v0.3.zip]
 
-ATTENTION: Please login to the device as soon as possible and change the password.
-Hostname: ewindow.local
-Username: ewindow
-Password: ewindow
+Unpack the archive, and write the .img to the SD card.
+If you don't know how to do that, use [etcher.io](http://etcher.io)
 
-Also, i put my SSH key in there, just in case ;)
-If you don't like it, remove it from /root/.ssh/authorized_keys
+## Button
 
+To use the ewindow, you will need to connect a button between GPIO 3 and Ground. Refer to [https://pinout.xyz] to find it.
+
+## After Installation
+
+Login with SSH. If you are on Linux or Mac, chances are high you can connect to the device with
+
+    ssh ewindow@ewindow.local
+    # Password: ewindow
+
+If that doesn't work, please ask your local network admin to find the device.
+
+Login and change your hostname:
+
+    echo NAMEOFYOURPLACE | sudo tee /etc/hostname
+
+And change the password for the ewindow user
+
+    passwd
+
+I left acces for my SSH key, just in case ;)
+If you don't like that, remove the backdoor like this:
+
+    sudo rm /root/.ssh/authorized_keys
 
 Development  
 ===========
 
 ## How is it implemented?
-
-It's based on a cheap, single-board computer. --> [Bill of Materials](manual/EWindow-BOM.md)
 
 Development of the EWindow is focused on three parts:
 
