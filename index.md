@@ -18,6 +18,22 @@ The goal is a decentralized, secure 24/7 audiovisual communication system --> Li
 - Command line interface
 
 
+Download  
+========
+
+
+[http://ewindow.org/ewindow-v0.3.zip]: http://ewindow.org/ewindow-v0.3.zip "Get the Image for Raspberry Pi here"
+[http://ewindow.org/ewindow-v0.3.zip]
+
+ATTENTION: Please login to the device as soon as possible and change the password.
+Hostname: ewindow.local
+Username: ewindow
+Password: ewindow
+
+Also, i put my SSH key in there, just in case ;)
+If you don't like it, remove it from /root/.ssh/authorized_keys
+
+
 Development  
 ===========
 
@@ -25,21 +41,19 @@ Development
 
 It's based on a cheap, single-board computer. --> [Bill of Materials](manual/EWindow-BOM.md)
 
-Development of the EWindow is focused on two parts:
+Development of the EWindow is focused on three parts:
 
 1) Enhancing a lightweight SIP Video Phone with Raspberry Pi support
 
     git clone https://github.com/alfredh/baresip
-
-2) A small python script that handles automatic connection buildup
-
-    git clone -b python https://github.com/strfry/ewindow
     
-3) A Qt/QML-based user interface with support for hardware buttons
+2) A Qt/QML-based user interface
 
     git clone https://github.com/strfry/ewindowui
-    
 
+3) Configuration details for a specific platform
+    
+    git clone https://github.com/strfry/ewindowui
 
 ## How does it work?
 
@@ -85,31 +99,10 @@ If a shared workspace wants to join the network, someone representing it needs t
 For now, you just download and install the image to a Raspberry Pi (3).
 In the future, passwords and secure connectivity are planned and this will change the way you become part of the network.
 
-Download  
-========
-
-THE RASPBERRY PI IMAGE BELOW IS OUTDATED. Write me a mail to get notified when the new version is released
-
-~~Preview Alpha 0.2 from 20th April 2017 can be downloaded here:~~
-http://ewindow.org/ewindow-v0.2-20Apr17.zip
-
-ATTENTION: This version is not secure. The access keys are stored on Github. It could potentially compromise your network!
-Regard it as experimental.
-Help in making the VPN more secure and functional would be super welcome.
-Please contact us if you want to help build a continous integration environment.
-See [https://github.com/teilWERK/Image] for instructions on how to build this image on a QEMU-ARM-based Raspbian Lite system.
-
 
 ## Documentation
 
-The relevant information is hidden in a, obfuscated mix of documentation and development notes on our etherpad server.
-More of this will be released step-by-step once we get a grip on our pad infrastructure. ;-)
-
-
-### Why don't you just use WebRTC?
-
-While modern web browsers work on the Raspberry Pi, they don't use the native video processing capabilities of the VideoCore.
-
+Coming soon...
 
 Contact
 =======
