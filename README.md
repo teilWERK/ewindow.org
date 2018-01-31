@@ -39,7 +39,7 @@ You can also choose your status as in free or busy connection.
 
 Software & Hardware
 ===================
-Of course for this end, we had to develop a user-friendly interface that requires no mediators such as a keyboard or a mouse. The E-windows are based on a software which runs on affordable technologies ( such as Raspberry Pi *raspberryPi is a open-source hardware computer. is like a small computer that you can use for prototyping.*, a flat monitor, a webcam, Linux ). The OS is Raspbian which is a free operating system, optimized for the Raspberry Pi hardware, that coincides with the open standards as in public, transparent and accessible to everyone . It provides an encrypted and secure connection as we strongly believe in freedom of speech.
+Of course for this end, we had to develop a user-friendly interface that requires no mediators such as a keyboard or a mouse. The E-windows are based on a software which runs on affordable technologies ( such as Raspberry Pi, a flat monitor, a webcam, Linux ). The OS is Raspbian which is a free operating system, optimized for the Raspberry Pi hardware, that coincides with the open standards as in public, transparent and accessible to everyone . It provides an encrypted and secure connection as we strongly believe in freedom of speech.
 It is also optimized to be efficiently used on most hardware from single board computers 
 such as the raspberry pi to high end pc’s.  
 And it facilitates further experimentation with new hardware of software features.
