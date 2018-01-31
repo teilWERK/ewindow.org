@@ -48,3 +48,17 @@ a webcam and a pair of speakers.
 All the E–window need to operate after  is a Stable video and audio connection  and Small band usage (short bandwidth). 
 The appearance is customizable  and could easily be altered and adjusted .
 
+The e-window is a prototype that was developed to facilitate the exchange and the flow of ideas between shared working spaces known as the Multifactory network. The multifactory is  a network of shared workspace across Europe and the e-window is a tool that ensures the   constant circulation of ideas in sharing knowledge and in exchanging skills and professional services between the spaces involved
+ “Electronic Window” solves two current problems:  first it let team members working in different buildings, cities or countries to share daily life and common values which is crucial team building. Second it lowers the email communication that in the last years increased so much that it loses power on communication.
+This is a way to use an already existing technology that is totally differentThe In what differs compared to a skype call? To make a skype call, you have to ALREADY know who you are calling, you need their contact, and so on. With the electronic window, you can easily interact with people you never met before.
+
+
+How it can be used in the Future ?
+==================================
+This Technology offers new ways to work: we can connect each other from everywhere in the world, we can share skills and experience . It is is the solution to real problem faced by many different communities of interest and is an answer to a real need, it can become a new practical and common way of communicating by moving ideas not people. This would result in a faster, better, cheaper way to work.
+The e-window can be adapted to local or personal needs in emerging communities in Africa or other developing communities and could be used to form possibly and unconventional partnerships between enterprises, startups , actors of international cooperation ,NGOs, Italian universities and research centers and countries of global south.
+The E-window is based on a free Open Source software and accessible to everybody as we strongly believe that a free software communication platform is necessary to protect freedom of speech and e-democracy. and it’s easy and cheap to build it yourself of an estimated cost around 300 euros. It can be replicated anywhere in the world with no hardware problems. We would like to spread it in the South of the World to have direct and non-mediated communication with startups and local entrepreneurs. 
+
+We think this tool can break down physical, political and mnemonic walls……..
+
+
