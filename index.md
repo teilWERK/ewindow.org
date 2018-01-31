@@ -120,11 +120,12 @@ For now, you just download and install the image to a Raspberry Pi (3).
 In the future, passwords and secure connectivity are planned and this will change the way you become part of the network.
 
 
-## Documentation
+## Code
+If you are a developer, you are VERY welcome here:
+https://github.com/strfry/ewindow
 
-Coming soon...
 
-Contact
+## Contact
 =======
 
 Jonathan Sieber - mail@strfry.org
