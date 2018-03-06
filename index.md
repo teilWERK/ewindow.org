@@ -1,5 +1,6 @@
 ---
 title: THE ELECTRONIC WINDOW
+layout: default
 ---
 ## What is it?
 
