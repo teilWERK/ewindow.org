@@ -25,8 +25,8 @@ If you want to improve the audio/video quality:
 Download  
 ========
 
-[http://ewindow.org/ewindow-v0.3.zip]: http://ewindow.org/ewindow-v0.3.zip "Get the Image for Raspberry Pi here"
-[http://ewindow.org/ewindow-v0.3.zip]
+[https://ewindow.org/download/ewindow-v0.3.zip]: https://ewindow.org/download/ewindow-v0.3.zip "Get the Image for Raspberry Pi here"
+[https://ewindow.org/download/ewindow-v0.3.zip]
 
 Unpack the archive, and write the .img to the SD card.
 If you don't know how to do that, use [etcher.io](http://etcher.io)
