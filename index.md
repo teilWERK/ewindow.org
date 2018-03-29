@@ -2,11 +2,15 @@
 title: THE ELECTRONIC WINDOW
 layout: default
 ---
-eleKtronicwindow.github.io/images/NEW POSTER ANOTHER IDEA-01.jpg
 
 ![rollup](images/NEW POSTER ANOTHER IDEA-01.jpg)
 
 ## What is it?
+
+Ewindow is a #Social Network# 
+#Open Source#  // the code is here: enjoy it //
+#Decentralized# // no central control owned by some big corporation using for other purposes your data //
+#free# // if you want, you can build up your own network //
 
 
 The EWindow is a video chat device that runs 24/7 in a shared space.
@@ -14,20 +18,46 @@ The goal is a decentralized, secure 24/7 audiovisual communication system --> Li
 
 ![A view into the Fablab Munich](images/EWindow_HEi_VOW.jpg)
 
-## What do i need to build it?
+## DESIGN DEVELOPMENT + ELECTRONICS
 
-- A Raspberry Pi (2 or 3)
+
+- A Raspberry Pi //3 (2 is ok too)//
 - 2 GiB  SD Card
 - Monitor (with Cable)
-- Speakers
-- USB Webcam with microphones
+- Speakers //CONNECTED VIA JACK, AND NO VIA USB//
+- USB Webcam with microphones 
 - A button and a bit of jumpwire
 
-If you want to improve the audio/video quality:
-- Raspberry PiCam (wide-angle version recommended)
-- USB Speakerphone (will replace speakers and microphone)
 
-Download  
+If you want to improve the audio/video quality:
+- Raspberry PiCam //wide-angle version recommended//
+- USB Speakerphone //will replace speakers and microphone//
+
+
+
+Software Development  
+===========
+## Code
+https://github.com/strfry/ewindow
+
+## How is it implemented?
+
+Development of the EWindow is focused on three parts:
+
+1) Enhancing a lightweight SIP Video Phone with Raspberry Pi support
+
+    git clone https://github.com/alfredh/baresip
+    
+2) A Qt/QML-based user interface
+
+    git clone https://github.com/strfry/ewindowui
+
+3) Configuration details for a specific platform
+    
+    git clone https://github.com/strfry/ewindowui
+    
+    
+ To Download the Image  
 ========
 
 [https://ewindow.org/download/ewindow-v0.3.zip]: https://ewindow.org/download/ewindow-v0.3.zip "Get the Image for Raspberry Pi here"
@@ -61,26 +91,9 @@ I left acces for my SSH key, just in case ;)
 If you don't like that, remove the backdoor like this:
 
     sudo rm /root/.ssh/authorized_keys
-
-Development  
-===========
-
-## How is it implemented?
-
-Development of the EWindow is focused on three parts:
-
-1) Enhancing a lightweight SIP Video Phone with Raspberry Pi support
-
-    git clone https://github.com/alfredh/baresip
     
-2) A Qt/QML-based user interface
-
-    git clone https://github.com/strfry/ewindowui
-
-3) Configuration details for a specific platform
     
-    git clone https://github.com/strfry/ewindowui
-
+  
 ## How does it work?
 
 ![the typical CASE di RINGHIERA, in North Italy. Every window is one in front of the other one and interaction is much more than in a flat.](Hackpad-D-export-09Dec2016_files/multifactory.jpg)
@@ -94,45 +107,41 @@ The EWindow can be set up with low-cost technologies (Raspberry Pi, a speakerpho
 And why don't just use skype or slack or any other existing video chat software? To make a skype call, you have to ALREADY know who you're calling and their contact information. With the electronic window, you can easily interact with people you've never met before. But you might have seen their video tutorial online...
 
 
-# Use it for your network: CROWDFUNDING CAMPAIGN
+# Use it for your network:
 
 The "electronic window" is a direct way to establish informal and unplanned connections. 
 They can be useful for different situations.
 If you like this concept and you have a need to connect your coffee break area with the one of some partner of yours, 
 WE CAN HELP YOU.
 
-In order to finance the software development and future updates we are planning to launch a CROWDFUNDING CAMPAIGN.
-Our supporters will receive 2 or more EWindows to use in their own network.
 
-Subscribe to our newsletter to be notified of WHEN THE CROWDFUNDING CAMPAIGN WILL BE ONLINE.
+# JOIN AN EXISTING EWINDOW NETWORK:
 
+## THE MULTIFACTORY NETWORK
 
+Goal: permanently connect open work/hack/make/share spaces with a similar attitude in different cities around the world.
 
-# How to become part of our network: THE MULTIFACTORY NETWORK?
+A community of real people, who make a living within the collaborative economy new paradigm. 
 
-Our goal is to permanently connect open work/hack/make/share spaces with a similar attitude in different cities around the world.
+Is it for me? 
+--> If you're a member of a collaborative, shared workspace, if you believe the world can change through a new economy based on sharing of knowledge, ressurces and machines, trust between entrepreneurs, orizontal business relationships and no exploitation of anything. You can think to join us!
 
-We are building a multi-level network of such spaces: a community of real people, who make a living in the collaborative economy --> the [Multifactory Network.](MultiFactory.md)
-
-If you're a member of a collaborative, shared workspace and you'd like to join the multifactory network, 
-we'd like to meet you!
-
-If a shared workspace wants to join the network, someone representing it needs to:
-1. visit another space already in the network
+HOW TO ENTER THE MULTIFACTORY NETWORK:
+If a shared workspace wants to join the network, a member needs to:
+1. visit another space already inside the network
 2. agree with the FREE EXCHANGE PROGRAM rules
-3. be visited by a member of a space already in the network
+3. invite a member of a space already into the network to attend to an event to his space
 
 For now, you just download and install the image to a Raspberry Pi (3).
 In the future, passwords and secure connectivity are planned and this will change the way you become part of the network.
 
 
-## Code
-If you are a developer, you are VERY welcome here:
-https://github.com/strfry/ewindow
+Subscribe to our newsletter 
 
-
-## Contact
+## Contacts
 =======
 
-Jonathan Sieber - mail@strfry.org
-Lorenza Salati - lorenza@bigmagma.it
+Software development --> Jonathan Sieber - jonathan@teilwerk.com
+Community development --> Lorenza Salati - lorenza@teilwerk.com
+Business Development --> Maik Jähne - maik@teilwek.com
+Strategy Development --> Giulio Focardi - giulio@teilwerk.com
