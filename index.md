@@ -7,25 +7,38 @@ layout: default
 
 ## What is it?
 
-###### Ewindow is a __Social Network__ 
+Ewindow is a NEW REVOLUTIONARY __Social Network__ 
+=================================
 
 1. __Open Source__ // the code is here [ewindow Code](https://github.com/strfry/ewindow) enjoy it //
 1. __Decentralized__ 
 // no central control owned by some big corporation using for other purposes your data //
 1. __Free__ 
-// if you want, you can build up your own network //
+// if you want, you can build up your own network, it si developed for meeting the cheapest electronics you can find currently on the market//
+
 
 --> Like a window in a wall.
 
+![the typical CASE di RINGHIERA, in North Italy. Every window is one in front of the other one and interaction is much more than in a flat.](Hackpad-D-export-09Dec2016_files/multifactory.jpg)
+
+
+
+DESIGN DEVELOPMENT 
+========================================
+
+*FRAME  
+There is no one frame, you can adapt it to your space.
+
+#The existing frames are:
 
 
 
 
+The HEI MUNICH 
+![A view into the Fablab Munich](images/EWindow_HEi_VOW.jpg)
 
 
-#####DESIGN DEVELOPMENT = FRAME + ELECTRONICS
-
-
+*ELECTRONICS
 - A Raspberry Pi //3 (2 is ok too)//
 - 2 GiB  SD Card
 - Monitor (with Cable)
@@ -33,12 +46,11 @@ layout: default
 - USB Webcam with microphones 
 - A button and a bit of jumpwire
 
-If you want to improve the audio/video quality:
+---
+If you would like to improve the audio/video quality:
 - Raspberry PiCam //wide-angle version recommended//
 - USB Speakerphone //will replace speakers and microphone//
 
-#The existing frames are:
-![A view into the Fablab Munich](images/EWindow_HEi_VOW.jpg)
 
 
 Software Development  
@@ -100,7 +112,6 @@ If you don't like that, remove the backdoor like this:
   
 ## How does it work?
 
-![the typical CASE di RINGHIERA, in North Italy. Every window is one in front of the other one and interaction is much more than in a flat.](Hackpad-D-export-09Dec2016_files/multifactory.jpg)
 
 Every space has its own window in a common area, like in the breakroom, for example.
 With the press of a button, the EWindow will connect to another EWindow in the same network.
