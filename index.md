@@ -2,7 +2,12 @@
 title: THE ELECTRONIC WINDOW
 layout: default
 ---
+eleKtronicwindow.github.io/images/NEW POSTER ANOTHER IDEA-01.jpg
+
+![rollup](images/NEW POSTER ANOTHER IDEA-01.jpg)
+
 ## What is it?
+
 
 The EWindow is a video chat device that runs 24/7 in a shared space.
 The goal is a decentralized, secure 24/7 audiovisual communication system --> Like a window in a wall.
