@@ -7,18 +7,23 @@ layout: default
 
 ## What is it?
 
-Ewindow is a #Social Network# 
-#Open Source#  // the code is here: enjoy it //
-#Decentralized# // no central control owned by some big corporation using for other purposes your data //
-#free# // if you want, you can build up your own network //
+###### Ewindow is a __Social Network__ 
+
+1. __Open Source__ // the code is here [ewindow Code](https://github.com/strfry/ewindow) enjoy it //
+1. __Decentralized__ 
+// no central control owned by some big corporation using for other purposes your data //
+1. __Free__ 
+// if you want, you can build up your own network //
+
+--> Like a window in a wall.
 
 
-The EWindow is a video chat device that runs 24/7 in a shared space.
-The goal is a decentralized, secure 24/7 audiovisual communication system --> Like a window in a wall.
 
-![A view into the Fablab Munich](images/EWindow_HEi_VOW.jpg)
 
-## DESIGN DEVELOPMENT + ELECTRONICS
+
+
+
+#####DESIGN DEVELOPMENT = FRAME + ELECTRONICS
 
 
 - A Raspberry Pi //3 (2 is ok too)//
@@ -28,17 +33,16 @@ The goal is a decentralized, secure 24/7 audiovisual communication system --> Li
 - USB Webcam with microphones 
 - A button and a bit of jumpwire
 
-
 If you want to improve the audio/video quality:
 - Raspberry PiCam //wide-angle version recommended//
 - USB Speakerphone //will replace speakers and microphone//
 
+#The existing frames are:
+![A view into the Fablab Munich](images/EWindow_HEi_VOW.jpg)
 
 
 Software Development  
 ===========
-## Code
-https://github.com/strfry/ewindow
 
 ## How is it implemented?
 
