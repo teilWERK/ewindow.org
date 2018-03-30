@@ -4,39 +4,50 @@ layout: default
 ---
 # What is it?
 
-Ewindow is a TECHNOLOGICAL DEVICE 
+# Ewindow is a TECHNOLOGICAL DEVICE 
 for a NEW REVOLUTIONARY __Social Network__ 
-==================================================================
 
-### 1. __OPEN SOURCE__ // the code is here [ewindow Code](https://github.com/strfry/ewindow) enjoy it //
+
+### 1. __OPEN SOURCE__ 
+// the code is here [ewindow Code](https://github.com/strfry/ewindow) enjoy it //
 ### 1. __DECENTRALISED__ 
 // no central control owned by some big corporation using for other purposes your data //
 ### 1. __FREE__ 
 // It can be set up with low-cost technologies (Raspberry Pi, a speakers,a flat monitor, a webcam with microphone) and is a dedicated single-app device, not a desktop computer or a smartphone.
 
 # Why we started this project based on free software?
--->     WE BELIEVE it is time to do a STEP BACK and RETHINK on how to use technologies for comunication:
-The E-window is based on a free Open Source software and accessible to everybody as we strongly believe that a free software communication platform is necessary to protect freedom of speech and e-democracy. 
-And it’s easy and cheap to build it by yourself of an estimated cost around 300 euros. 
-It can be replicated anywhere in the world with no hardware problems. 
-We would like to spread it in the South of the World to have direct and non-mediated communication with startups and local entrepreneurs, build partnerships between peers, build a decentralised communication system, non depending on top down policies. 
+-->     WE BELIEVE it is time to do a STEP BACK and RETHINK on how to use technologies for comunication purposes:
+
+### The E-window is based on a free Open Source software and accessible to everybody as we strongly believe that a free software communication platform is necessary to protect freedom of speech and e-democracy. 
+#### And it’s easy and cheap to build it by yourself of an estimated cost around 300 euros. 
+#### It can be replicated anywhere in the world with no hardware problems. 
+#### We would like to spread it in the South of the World to have direct and non-mediated communication with startups and local entrepreneurs, build partnerships between peers, build a decentralised communication system, non depending on top down policies. 
 
 
-
-It is a tunnel for comunication you find is physical spaces, it is like a window in a wall:
+It is a tunnel for comunication you find is physical spaces.
+## it is like a window in a wall:
 ![the typical CASE di RINGHIERA, in North Italy. Every window is one in front of the other one and interaction is much more than in a flat.](Hackpad-D-export-09Dec2016_files/multifactory.jpg)
 
-We think this tool can break down physical, political and mnemonic walls
+##### We think this tool can break down physical, political and mnemonic walls.
+
+
+# THE STORY
+
+After some years of trials and experiments on instant communication we decided it was time to do something bigger and we involved the Verbund Offener Werkstaetten (D) which decided to join us in the long process of making the community and spreading awarness around this theme.
+
+Then, to maintain the software development we created a small company TEILWERK.
 
 ![rollup](images/NEW POSTER ANOTHER IDEA-01.jpg)
 
+
 ## How does it work?
 
+Many different EWindows, all togheter, can make their own social network. Imagine you want to connect 3 different spaces. 
 Every space has its own window in a common area, like in the coffebreak, a corridor, the kitchen.
 With the press of a button, the EWindow will connect to another EWindow in the same network.
 Once the Window is opened, there is a # 1:1 encrypted connection. 
 
-And why don't just use skype or slack or any other existing video chat software? 
+### And why don't just use skype or slack or any other existing video chat software? 
 To make a skype call, you have to ALREADY know who you're calling and their contact information. With the electronic window, you can easily interact with people you've never met before. But you might have seen their video tutorial online...
 
 Of course for this end, we had to develop a user-friendly interface that requires no mediators such as a keyboard or a mouse. 
@@ -147,7 +158,7 @@ They can be useful for different situations.
 
 # JOIN THE EXISTING EWINDOW NETWORK:
 
-[THE MULTIFACTOY NETWORK](eleKtronicwindow.github.io/community.md)
+[THE MULTIFACTOY NETWORK](community.md)
 
 ## THE MULTIFACTORY NETWORK
 
