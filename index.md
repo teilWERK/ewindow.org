@@ -4,46 +4,55 @@ layout: default
 ---
 # What is it?
 
-## Ewindow is a NEW REVOLUTIONARY __Social Network__ 
-=================================
+Ewindow is a TECHNOLOGICAL DEVICE 
+for a NEW REVOLUTIONARY __Social Network__ 
+==================================================================
 
-1. __Open Source__ // the code is here [ewindow Code](https://github.com/strfry/ewindow) enjoy it //
-1. __Decentralized__ 
+### 1. __OPEN SOURCE__ // the code is here [ewindow Code](https://github.com/strfry/ewindow) enjoy it //
+### 1. __DECENTRALISED__ 
 // no central control owned by some big corporation using for other purposes your data //
-1. __Free__ 
-// if you want, you can build up your own network, it si developed for meeting the cheapest electronics you can find currently on the market//
+### 1. __FREE__ 
+// It can be set up with low-cost technologies (Raspberry Pi, a speakers,a flat monitor, a webcam with microphone) and is a dedicated single-app device, not a desktop computer or a smartphone.
 
---> Like a window in a wall.
+# Why we started this project based on free software?
+-->     WE BELIEVE it is time to do a STEP BACK and RETHINK on how to use technologies for comunication:
+The E-window is based on a free Open Source software and accessible to everybody as we strongly believe that a free software communication platform is necessary to protect freedom of speech and e-democracy. 
+And it’s easy and cheap to build it by yourself of an estimated cost around 300 euros. 
+It can be replicated anywhere in the world with no hardware problems. 
+We would like to spread it in the South of the World to have direct and non-mediated communication with startups and local entrepreneurs, build partnerships between peers, build a decentralised communication system, non depending on top down policies. 
 
+
+
+It is a tunnel for comunication you find is physical spaces, it is like a window in a wall:
 ![the typical CASE di RINGHIERA, in North Italy. Every window is one in front of the other one and interaction is much more than in a flat.](Hackpad-D-export-09Dec2016_files/multifactory.jpg)
 
-![rollup](images/NEW POSTER ANOTHER IDEA-01.jpg)
+We think this tool can break down physical, political and mnemonic walls
 
+![rollup](images/NEW POSTER ANOTHER IDEA-01.jpg)
 
 ## How does it work?
 
 Every space has its own window in a common area, like in the coffebreak, a corridor, the kitchen.
 With the press of a button, the EWindow will connect to another EWindow in the same network.
-Once the Window is opened, there is a # 1:1 encrypted connection. #
+Once the Window is opened, there is a # 1:1 encrypted connection. 
 
-The EWindow can be set up with low-cost technologies (Raspberry Pi, a speakerphone, flat monitor, webcam) and is a dedicated single-app device, not a desktop computer or a smartphone.
+And why don't just use skype or slack or any other existing video chat software? 
+To make a skype call, you have to ALREADY know who you're calling and their contact information. With the electronic window, you can easily interact with people you've never met before. But you might have seen their video tutorial online...
 
-And why don't just use skype or slack or any other existing video chat software? To make a skype call, you have to ALREADY know who you're calling and their contact information. With the electronic window, you can easily interact with people you've never met before. But you might have seen their video tutorial online...
+Of course for this end, we had to develop a user-friendly interface that requires no mediators such as a keyboard or a mouse. 
 
-This is a way to use an already existing technology that is totally differentThe In what differs compared to a skype call? To make a skype call, you have to ALREADY know who you are calling, you need their contact, and so on. With the electronic window, you can easily interact with people you never met before.
-
-Of course for this end, we had to develop a user-friendly interface that requires no mediators such as a keyboard or a mouse. The E-windows are based on a software which runs on affordable technologies ( such as Raspberry Pi *raspberryPi is a open-source hardware computer. is like a small computer that you can use for prototyping.*, a flat monitor, a webcam, Linux ). The OS is Raspbian which is a free operating system, optimized for the Raspberry Pi hardware, that coincides with the open standards as in public, transparent and accessible to everyone . It provides an encrypted and secure connection as we strongly believe in freedom of speech.
+The E-windows are based on a software which runs on affordable technologies ( such as Raspberry Pi *raspberryPi is a open-source hardware computer. is like a small computer that you can use for prototyping.*, a flat monitor, a webcam, Linux ). 
+The OS is Raspbian which is a free operating system, optimized for the Raspberry Pi hardware, that coincides with the open standards as in public, transparent and accessible to everyone . It provides an encrypted and secure connection as we strongly believe in freedom of speech.
 It is also optimized to be efficiently used on most hardware from single board computers such as the raspberry pi to high end pc’s.  And it facilitates further experimentation with new hardware of software features.
-To build the e-window , you need a monitor , a small computers such raspberry pie 2, a webcam and a pair of speakers. All the E–window need to operate after  is a Stable video and audio connection  and Small band usage (short bandwidth). The appearance is customizable  and could easily be altered and adjusted .
 
-
+To build the e-window , you need a monitor , a small computer such raspberry pie 2, a webcam and a pair of speakers. All the E–window need to operate after is a Stable video and audio connection  and Small band usage (short bandwidth). The appearance is customizable  and could easily be altered and adjusted .
 
 
 DESIGN DEVELOPMENT 
 ========================================
 
 *FRAME  
-There is no one frame, very space build his own.
+There is no one frame, every space build his own.
 
 # Have a look to some existing frames:
 
@@ -138,7 +147,7 @@ They can be useful for different situations.
 
 # JOIN THE EXISTING EWINDOW NETWORK:
 
-eleKtronicwindow.github.io/community.md
+[THE MULTIFACTOY NETWORK](eleKtronicwindow.github.io/community.md)
 
 ## THE MULTIFACTORY NETWORK
 
@@ -161,26 +170,26 @@ For now, you just download and install the image to a Raspberry Pi (3).
 In the future, passwords and secure connectivity are planned and this will change the way you become part of the network.
 
 
-# How it can be used in the Future ?
+# How it can be used in the Future?
 
 This Technology offers new ways to work: we can connect each other from everywhere in the world, we can share skills and experiences. 
 It is the solution to real problem faced by many different communities of interest and is an answer to a real need, it can become a new practical and common way of communicating by moving ideas, not people. This would result in a faster, better, cheaper way to work.
 The e-window can be adapted to local or personal needs in emerging communities in Africa or other developing communities and could be used to form possibly and unconventional partnerships between enterprises, startups, actors of international cooperation ,NGOs, Universities and Research Centers and Countries from Global South.
 
 
-# Why we started this project based on free software?
 
-The E-window is based on a free Open Source software and accessible to everybody as we strongly believe that a free software communication platform is necessary to protect freedom of speech and e-democracy. and it’s easy and cheap to build it yourself of an estimated cost around 300 euros. It can be replicated anywhere in the world with no hardware problems. We would like to spread it in the South of the World to have direct and non-mediated communication with startups and local entrepreneurs, build partnerships between peers, build a decentralised communication system, non depending on top down policies. 
 
-We think this tool can break down physical, political and mnemonic walls.
+
 
 
 Subscribe to our newsletter 
 
 ## Contacts
-=======
+
+Community development --> Lorenza Salati - lorenza@teilwerk.com
+
+Business Development --> Maik Jähne - maik@teilwek.com
+
+Strategy Development --> Giulio Focardi - giulio@teilwerk.com
 
 Software development --> Jonathan Sieber - jonathan@teilwerk.com
-Community development --> Lorenza Salati - lorenza@teilwerk.com
-Business Development --> Maik Jähne - maik@teilwek.com
-Strategy Development --> Giulio Focardi - giulio@teilwerk.com
