@@ -158,9 +158,13 @@ They can be useful for different situations.
 
 # JOIN THE EXISTING EWINDOW NETWORK:
 
-[THE MULTIFACTOY NETWORK](community.md)
+[THE MULTIFACTOY NETWORK](MultiFactory.md)
+
 
 ## THE MULTIFACTORY NETWORK
+
+Is it for me? 
+--> If you're a member of a collaborative, shared workspace, if you believe the world can change through a new economy based on sharing of knowledge, ressurces and machines, trust between entrepreneurs, orizontal business relationships and no exploitation of anything. You can think to join us! 
 
 The e-window is a prototype that was developed to facilitate the exchange and the flow of ideas between shared working spaces known as the Multifactory network. THe goal of the Multifactory Network was to permanently connect open work/hack/make/share spaces with a similar attitude in different cities around the world. 
 The multifactory is  a network of shared workspace across Europe and the e-window is a tool that ensures the   constant circulation of ideas in sharing knowledge and in exchanging skills and professional services between the spaces involved.
@@ -168,8 +172,7 @@ A community of real people, who make a living within the collaborative economy n
 
 “Electronic Window” solves two current problems:  first it let team members working in different buildings, cities or countries to share daily life and common values which is crucial team building. Second it lowers the email communication that in the last years increased so much that it loses power on communication.
 
-Is it for me? 
---> If you're a member of a collaborative, shared workspace, if you believe the world can change through a new economy based on sharing of knowledge, ressurces and machines, trust between entrepreneurs, orizontal business relationships and no exploitation of anything. You can think to join us!
+
 
 HOW TO ENTER THE MULTIFACTORY NETWORK:
 If a shared workspace wants to join the network, a member needs to:
