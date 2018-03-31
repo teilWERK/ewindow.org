@@ -118,7 +118,7 @@ A community of real people, who make a living within the collaborative economy n
 The EWindow is a technological community tool and not a personal communications tool.
 The EWindow offers a third way.
 
-[LEARN MORE](future.html)
+[LEARN MORE](future.md)
 
 
 # NEWSLETTER
@@ -127,16 +127,8 @@ Subscribe to our newsletter
 
 # CONTACTS
 
-[Get in touch with us](contacts.html)
+[Get in touch with us](contacts.md)
 
--
-contacts.html
-Community development --> Lorenza Salati - lorenza@teilwerk.com
 
-Business Development --> Maik Jähne - maik@teilwek.com
 
-Strategy Development --> Giulio Focardi - giulio@teilwerk.com
 
-Software development --> Jonathan Sieber - jonathan@teilwerk.com
-
--
