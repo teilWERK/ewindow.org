@@ -1,3 +1,8 @@
+---
+title: THE ELECTRONIC WINDOW
+layout: default
+---
+
 ## To Download the Image  
 
 1.
