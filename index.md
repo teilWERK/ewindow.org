@@ -20,8 +20,11 @@ Ewindow is:
 ### 1. __FREE__ 
 // Everything (codes, hardware) is shared //
 
-[LEARN MORE](introduction.html)
+![EWINDOW](images/R84 EWINDOW.png)
 
+
+
+[LEARN MORE](introduction.html)
 
 # STORY
 
