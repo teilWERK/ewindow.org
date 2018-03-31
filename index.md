@@ -16,7 +16,7 @@ layout: default
 [LEARN MORE](introduction.html)
 
 
-# THE STORY
+# STORY
 
 After some years of trials and experiments on instant communication we decided it was time to do something bigger and we involved the Verbund Offener Werkstaetten (D) which decided to join us in the long process of making the community and spreading awarness around this theme.
 Then, to maintain the software development we created a small company TEILWERK.
@@ -30,16 +30,13 @@ Many different EWindows, all togheter, can make their own social network. Imagin
 Every space has its own window in a common area, like in the coffebreak, a corridor, the kitchen.
 With the press of a button, the EWindow will connect to another EWindow in the same network.
 Once the Window is opened, there is a # 1:1 encrypted connection. 
-[TO LEARN MORE](why.md)
+[LEARN MORE](why.md)
 
 
 # BUY
 EWindow solves two current problems: first it let team members working in different buildings, cities or countries to share daily life and common values which is crucial team building. Second it lowers the email communication that in the last years increased so much that it loses power on communication.
 
-[TO LEARN MORE](pages/buy.html)
-
-pages/buy.html
-![rollup](images/NEW POSTER ANOTHER IDEA-01.jpg)
+[TO LEARN MORE](buy.md)
 
 
 # DESIGN 
@@ -75,19 +72,7 @@ After many trials (and errors) we went up with a simple and accessible configura
 - USB Webcam with microphones 
 - A button and a bit of jumpwire
 
-[TO LEARN MORE ABOUT ELECTRONIC PARTS](pages/hardware.html)
-
--
-pages/hardware.html
-TO LEARN MORE ABOUT THE ELECTRONIC PARTS
----
-If you would like to improve the audio/video quality:
-- Raspberry PiCam //wide-angle version recommended//
-- USB Speakerphone //will replace speakers and microphone//
-
-## Button
-To use the ewindow, you will need to connect a button between GPIO 3 and Ground. Refer to [https://pinout.xyz] to find it.
--
+[LEARN MORE ABOUT ELECTRONIC PARTS](hardware.md)
 
 
 # SOFTWARE 
@@ -99,95 +84,24 @@ It is also optimized to be efficiently used on most hardware from single board c
 
 
 ## DOWNLOAD THE IMAGE FOR THE RASPBY
-[DOWNLOAD IT HERE](pages/imagedownload.html)
-
--
-imagedownload.html
-
-## To Download the Image  
-
-1.
-[https://ewindow.org/download/ewindow-v0.3.zip]: https://ewindow.org/download/ewindow-v0.3.zip "Get the Image for Raspberry Pi here"
-[https://ewindow.org/download/ewindow-v0.3.zip]
-
-1.
-Unpack the archive, and write the .img to the SD card.
-If you don't know how to do that, use [etcher.io](http://etcher.io)
+[DOWNLOAD IT HERE](imagedownload.md)
 
 
 ## GETTING STARTED
 
-[GETTING STARTED](pages/gettingstarted.html)
-
--
-gettingstarted.html
-
-## After the [installation of the IMAGE](pages/imagedownload.html)
-
-you can join the MULTIFACTORY EXISTING NETWORK:
-
-Login with SSH. If you are on Linux or Mac, chances are high you can connect to the device with
-
-    ssh ewindow@ewindow.local
-    # Password: ewindow
-
-If that doesn't work, please ask your local network admin to find the device.
-
-Login and change your hostname:
-
-    echo NAMEOFYOURPLACE | sudo tee /etc/hostname
-
-And change the password for the ewindow user
-
-    passwd
-
-I left acces for my SSH key, just in case ;)
-If you don't like that, remove the backdoor like this:
-
-    sudo rm /root/.ssh/authorized_keys
--
+[GETTING STARTED](gettingstarted.md)
 
 
 ## IMPLEMENTATION
 
-[HOW IT IS IMPLEMENTED](pages/softwareimplementation.html)
-
--
-softwareimplementation.html
-## How is it implemented?
-
-Development of the EWindow is focused on three parts:
-
-1) Enhancing a lightweight SIP Video Phone with Raspberry Pi support
-
-    git clone https://github.com/alfredh/baresip
-    
-2) A Qt/QML-based user interface
-
-    git clone https://github.com/teilWERK/ewindow-core
-
-3) Some configuration scripts for specific platforms
-    
-    git clone https://github.com/teilWERK/ewindow-scripts
-
-4) A set of build recipes for Alpine Linux
-
-    git clone https://github.com/teilWERK/ewindow-aports
-
-5) Script to put everything together in a bootable live image:
-
-    git clone https://github.com/teilWERK/ewindow-builder
--    
-    
+[HOW IT IS IMPLEMENTED](softwareimplementation.html)
 
 
-    
-    
 # EWINDOW NETWORKS  
 The "electronic window" is a direct way to establish informal and unplanned connections. 
 They can be useful for different situations. 
 
-[BUILD YOUR OWN EWINDOW NETWORK](pages/setupyourownnetwork.html)
+[BUILD YOUR OWN EWINDOW NETWORK](setupyourownnetwork.md)
 
 ## JOIN THE EXISTING EWINDOW NETWORK
 
@@ -206,36 +120,6 @@ The EWindow offers a third way.
 
 [LEARN MORE](future.html)
 
-
-future.html
--
-# How it can be used in the Future?
-
-Today's communication technologies are challeging our society and how people interact and exchange between each others. A lot of time is spent in front of a smartphone or computer monitor and squares are progresively abandoned. 
-People is always and immediately reachable everywhere and at any time. 
-We think to refuse technology, and act as it wasn't existing, is not the solution.
-We believe technology can be an ally and not an enemy.
-Ewindows are physical devices but are not personal devices, they are community devices. 
-Ewindows can combine the need of physical community spaces with the technological progress on communication.
-
-Social Network platforms are managed by corporate companies which sell data users give to them for free. This unbalanced relationship between users and platform providers leads to a dangerous manipulation of information and abuse of power which is attaking democracy.
-For those who are aware of this limitation of freedom imposed by facebook, what's up, skype and all others, there are two solutions: or to join only free and decentralised social networks, which are lighs spots in the darkness: like diaspora or jabber or to stay away from technologies.
-
-The EWindow is a community tool and not a personal tool,
-The EWindow offers a third way.
-
-Througn technology we can connect each other from everywhere in the world, we can share skills and experiences. An we do not want to loose this opportunity.
-
-But how not to loose freedom?
-
-It is the solution to real problem faced by many different communities of interest and it is an answer to an urgent need. 
-EWindow can become a new practical and common way of communicating by moving ideas, in local community spots.
-You have to go out from your home, join a real local community and then, from then, you ffind an Ewindow spot wich can connect you with the rest of the world.
-This would result in a faster, better, cheaper way to share ideas, projects and works.
-
-The EWindow can be adapted to local or personal needs in emerging communities in Africa or other developing communities and could be used to form orizontal and unconventional partnerships between enterprises, startups, actors of international cooperation ,NGOs, Universities and Research Centers and Countries from Global South.
-
---
 
 # NEWSLETTER
 
