@@ -22,8 +22,6 @@ Ewindow is:
 
 ![EWINDOW](images/R84 EWINDOW.png)
 
-
-
 [LEARN MORE](introduction.html)
 
 # STORY
