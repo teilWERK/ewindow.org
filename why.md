@@ -1,8 +1,7 @@
 ---
-
+title: THE ELECTRONIC WINDOW
 layout: default
 ---
-
 
 ### Why don't just use skype or slack or any other existing video chat software? 
 
