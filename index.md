@@ -3,9 +3,16 @@ title: THE ELECTRONIC WINDOW
 layout: default
 ---
 
-# Ewindow is a TECHNOLOGICAL DEVICE 
-## for a NEW REVOLUTIONARY __Social Network__. 
+# EWindow is a TECHNOLOGICAL DEVICE 
+# for a NEW REVOLUTIONARY __Social Network__
 
+It’s a public videochat system to connect different spaces based on Raspberry PI.
+
+It looks as similar as possible to a “real” window: 
+it has basic user interface and it doesn’t have mouse, keyboard, or other functions. 
+It’s just a “window" in a wall.
+
+Ewindow is:
 ### 1. __OPEN SOURCE__ 
 // the code is here [ewindow Code](https://github.com/teilWERK) enjoy it //
 ### 1. __DECENTRALISED__ 
@@ -17,6 +24,8 @@ layout: default
 
 
 # STORY
+
+The EWindow started some years ago 
 
 After some years of trials and experiments on instant communication we decided it was time to do something bigger and we involved the Verbund Offener Werkstaetten (D) which decided to join us in the long process of making the community and spreading awarness around this theme.
 Then, to maintain the software development we created a small company TEILWERK.
