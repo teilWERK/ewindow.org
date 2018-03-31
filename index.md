@@ -9,7 +9,7 @@ for a NEW REVOLUTIONARY __Social Network__
 
 
 ### 1. __OPEN SOURCE__ 
-// the code is here [ewindow Code](https://github.com/strfry/ewindow) enjoy it //
+// the code is here [ewindow Code](https://github.com/teilWERK) enjoy it //
 ### 1. __DECENTRALISED__ 
 // no central control owned by some big corporation using for other purposes your data //
 ### 1. __FREE__ 
@@ -106,11 +106,19 @@ Development of the EWindow is focused on three parts:
     
 2) A Qt/QML-based user interface
 
-    git clone https://github.com/strfry/ewindowui
+    git clone https://github.com/teilWERK/ewindow-core
 
-3) Configuration details for a specific platform
+3) Some configuration scripts for specific platforms
     
-    git clone https://github.com/strfry/ewindowui
+    git clone https://github.com/teilWERK/ewindow-scripts
+
+4) A set of build recipes for Alpine Linux
+
+    git clone https://github.com/teilWERK/ewindow-aports
+
+5) Script to put everything together in a bootable live image:
+
+    git clone https://github.com/teilWERK/ewindow-builder
     
     
  To Download the Image  
