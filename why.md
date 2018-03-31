@@ -1,3 +1,9 @@
+---
+
+layout: default
+---
+
+
 ### Why don't just use skype or slack or any other existing video chat software? 
 
 To make a skype call, you have to ALREADY know who you're calling and their contact information. With the electronic window, you can easily interact with people you've never met before. But you might have seen their video tutorial online...
