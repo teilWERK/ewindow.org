@@ -39,6 +39,7 @@ Many different EWindows, all togheter, can make their own social network. Imagin
 Every space has its own window in a common area, like in the coffebreak, a corridor, the kitchen.
 With the press of a button, the EWindow will connect to another EWindow in the same network.
 Once the Window is opened, there is a # 1:1 encrypted connection. 
+
 [LEARN MORE](why.md)
 
 
@@ -103,7 +104,7 @@ It is also optimized to be efficiently used on most hardware from single board c
 
 ## IMPLEMENTATION
 
-[HOW IT IS IMPLEMENTED](softwareimplementation.html)
+[HOW IT IS IMPLEMENTED](implementation.md)
 
 
 # EWINDOW NETWORKS  
@@ -136,8 +137,5 @@ Subscribe to our newsletter
 
 # CONTACTS
 
-[Get in touch with us](contacts.md)
-
-
-
+[GET IN TOUCH WITH US](contacts.md)
 
