@@ -15,6 +15,8 @@ layout: default
 
 [LEARN MORE ABOUT EWINDOW](pages/introduction.html)
 
+-
+pages/introduction.html
 # Why we started this project based on free software?
 -->     WE BELIEVE it is time to do a STEP BACK and RETHINK on how to use technologies for comunication purposes:
 
@@ -36,10 +38,8 @@ After some years of trials and experiments on instant communication we decided i
 
 Then, to maintain the software development we created a small company TEILWERK.
 
-![rollup](images/NEW POSTER ANOTHER IDEA-01.jpg)
 
-
-## How does it work?
+# WHY EWINDOW
 
 Ewindow is a dedicated single-app device, not a desktop computer or a smartphone.
 
@@ -47,24 +47,31 @@ Many different EWindows, all togheter, can make their own social network. Imagin
 Every space has its own window in a common area, like in the coffebreak, a corridor, the kitchen.
 With the press of a button, the EWindow will connect to another EWindow in the same network.
 Once the Window is opened, there is a # 1:1 encrypted connection. 
+[TO LEARN MORE](pages/why.html)
 
+-
+(pages/why.html)
 ### And why don't just use skype or slack or any other existing video chat software? 
 To make a skype call, you have to ALREADY know who you're calling and their contact information. With the electronic window, you can easily interact with people you've never met before. But you might have seen their video tutorial online...
 
 Of course for this end, we had to develop a user-friendly interface that requires no mediators such as a keyboard or a mouse. 
 
 To build the e-window , you need a monitor , a small computer such raspberry pie 2, a webcam and a pair of speakers. All the E–window need to operate after is a Stable video and audio connection  and Small band usage (short bandwidth). The appearance is customizable  and could easily be altered and adjusted .
+-
+
 
 # BUY
-
 EWindow solves two current problems: first it let team members working in different buildings, cities or countries to share daily life and common values which is crucial team building. Second it lowers the email communication that in the last years increased so much that it loses power on communication.
 
-[TO LEARN MORE](pages/imagedownload.html)
+[TO LEARN MORE](pages/buy.html)
+
+pages/buy.html
+![rollup](images/NEW POSTER ANOTHER IDEA-01.jpg)
 
 
 # DESIGN 
 
-THe development of the design..
+THe development of the design.
 
 *FRAME  
 There is no one frame, every space build his own.
@@ -97,7 +104,7 @@ After many trials (and errors) we went up with a simple and accessible configura
 
 [TO LEARN MORE ABOUT ELECTRONIC PARTS](pages/hardware.html)
 
-
+-
 pages/hardware.html
 TO LEARN MORE ABOUT THE ELECTRONIC PARTS
 ---
@@ -107,8 +114,7 @@ If you would like to improve the audio/video quality:
 
 ## Button
 To use the ewindow, you will need to connect a button between GPIO 3 and Ground. Refer to [https://pinout.xyz] to find it.
-
---
+-
 
 
 # SOFTWARE 
@@ -119,8 +125,7 @@ The OS is Raspbian which is a free operating system, optimized for the Raspberry
 It is also optimized to be efficiently used on most hardware from single board computers such as the raspberry pi to high end pc’s.  And it facilitates further experimentation with new hardware of software features.
 
 
-## DOWNLOAD 
-### THE IMAGE FOR THE RASPBY
+## DOWNLOAD THE IMAGE FOR THE RASPBY
 [DOWNLOAD IT HERE](pages/imagedownload.html)
 
 -
@@ -276,4 +281,5 @@ Business Development --> Maik Jähne - maik@teilwek.com
 Strategy Development --> Giulio Focardi - giulio@teilwerk.com
 
 Software development --> Jonathan Sieber - jonathan@teilwerk.com
+
 -
