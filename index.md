@@ -88,20 +88,6 @@ The OS is Raspbian which is a free operating system, optimized for the Raspberry
 It is also optimized to be efficiently used on most hardware from single board computers such as the raspberry pi to high end pc’s.  And it facilitates further experimentation with new hardware of software features.
 
 
-## DOWNLOAD THE IMAGE FOR THE RASPBY
-[DOWNLOAD IT HERE](imagedownload.md)
-
-
-## GETTING STARTED
-
-[GETTING STARTED](gettingstarted.md)
-
-
-## IMPLEMENTATION
-
-[HOW IT IS IMPLEMENTED](implementation.md)
-
-
 # EWINDOW NETWORKS  
 The "electronic window" is a direct way to establish informal and unplanned connections. 
 They can be useful for different situations. 
