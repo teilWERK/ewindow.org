@@ -3,6 +3,9 @@ theme: jekyll-theme-hacker
 title: The EWindow Project Website
 description: Building a P2P Audio Video Window
 
+plugins:
+  - jekyll-relative-links
+
 #liquid:
 #  error_mode: :warn
 # or lax or strict
