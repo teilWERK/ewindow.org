@@ -1,3 +1,8 @@
+---
+title: THE ELECTRONIC WINDOW
+layout: default
+---
+
 ## It is like a window in a wall
 ![the typical CASE di RINGHIERA, in North Italy. Every window is one in front of the other one and interaction is much more than in a flat.](Hackpad-D-export-09Dec2016_files/multifactory.jpg)
 
