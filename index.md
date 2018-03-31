@@ -88,20 +88,12 @@ The OS is Raspbian which is a free operating system, optimized for the Raspberry
 It is also optimized to be efficiently used on most hardware from single board computers such as the raspberry pi to high end pc’s.  And it facilitates further experimentation with new hardware of software features.
 
 
-# EWINDOW NETWORKS  
-The "electronic window" is a direct way to establish informal and unplanned connections. 
-They can be useful for different situations. 
+# COMMUNITY 
+EWINDOWS are a direct way to establish informal and unplanned connections. 
+They can be useful for different situations and in different networks.
 
-[BUILD YOUR OWN EWINDOW NETWORK](setupyourownnetwork.md)
+[LEARN MORE](community.md)
 
-## JOIN THE EXISTING EWINDOW NETWORK
-
-### THE MULTIFACTORY NETWORK
-
-The multifactory is  a network of shared workspace across Europe and the EWindow is a tool that ensures the constant circulation of ideas in sharing knowledge and in exchanging skills and professional services between the spaces involved.
-A community of real people, who make a living within the collaborative economy new paradigm. 
-
-[LEARN MORE](MultiFactory.html)
 
 
 # FUTURE DEVELOPMENT
