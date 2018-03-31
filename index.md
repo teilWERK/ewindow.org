@@ -11,25 +11,9 @@ layout: default
 ### 1. __DECENTRALISED__ 
 // no central control owned by some corporation using your data for other purposes //
 ### 1. __FREE__ 
-// Everything for making it by your own is shared //
+// Everything (codes, hardware) is shared //
 
-[LEARN MORE ABOUT EWINDOW](pages/introduction.html)
-
--
-pages/introduction.html
-# Why we started this project based on free software?
--->     WE BELIEVE it is time to do a STEP BACK and RETHINK on how to use technologies for comunication purposes:
-
-### The E-window is based on a free Open Source software and accessible to everybody as we strongly believe that a free software communication platform is necessary to protect freedom of speech and e-democracy. 
-#### And it’s easy and cheap to build it by yourself of an estimated cost around 300 euros. 
-#### It can be replicated anywhere in the world with no hardware problems. 
-#### We would like to spread it in the South of the World to have direct and non-mediated communication with startups and local entrepreneurs, build partnerships between peers, build a decentralised communication system, non depending on top down policies. 
-
-It is a tunnel for comunication you find is physical spaces.
-## it is like a window in a wall:
-![the typical CASE di RINGHIERA, in North Italy. Every window is one in front of the other one and interaction is much more than in a flat.](Hackpad-D-export-09Dec2016_files/multifactory.jpg)
-
-##### We think this tool can break down physical, political and mnemonic walls.
+[LEARN MORE ABOUT EWINDOW](introduction.html)
 
 
 # THE STORY
