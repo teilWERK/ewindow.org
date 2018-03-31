@@ -57,18 +57,7 @@ THe development of the design.
 *FRAME  
 There is no one frame, every space build his own.
 
-# Have a look to some existing frames:
-
-![R84 ewindow](images/photo5827694945186721529.jpg)
-done by Fabrizio
-
-![Munich Fablab](images/photo5237893242777872680.jpg)
-done by Felix
-
-The HEI MUNICH 
-![A view into the Fablab Munich](images/EWindow_HEi_VOW.jpg)
-done by HEI Team
-
+# Have a look to some [existing frames](frames.md)
 
 # HARDWARE DEVELOPMENT
 
