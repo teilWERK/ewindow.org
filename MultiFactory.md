@@ -1,3 +1,7 @@
+---
+title: THE MULTIFACTORY NETWORK
+layout: default
+---
 
 # About the Multifactory network
 
