@@ -12,4 +12,5 @@ If you would like to improve the audio/video quality:
 
 ## Button
 ![button](images/button_500px.jpg)
+
 To use the ewindow, you will need to connect a button between GPIO 3 and Ground. Refer to [https://pinout.xyz] to find it.
