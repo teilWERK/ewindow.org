@@ -19,7 +19,6 @@ Ewindow is:
 // no central control owned by some corporation using your data for other purposes //
 ### 1. __FREE__ 
 // Everything (codes, hardware) is shared //
-
 ![R84 EWINDOW](images/R84 EWINDOW.png)
 
 [LEARN MORE](introduction.html)
