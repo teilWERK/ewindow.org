@@ -25,7 +25,7 @@ Ewindow is:
 
 # STORY
 
-The EWindow started some years ago 
+The EWindow started some years ago. 
 
 After some years of trials and experiments on instant communication we decided it was time to do something bigger and we involved the Verbund Offener Werkstaetten (D) which decided to join us in the long process of making the community and spreading awarness around this theme.
 Then, to maintain the software development we created a small company TEILWERK.
@@ -47,7 +47,7 @@ Once the Window is opened, there is a # 1:1 encrypted connection.
 # BUY
 EWindow solves two current problems: first it let team members working in different buildings, cities or countries to share daily life and common values which is crucial team building. Second it lowers the email communication that in the last years increased so much that it loses power on communication.
 
-[TO LEARN MORE](buy.md)
+[LEARN MORE](buy.html)
 
 
 # DESIGN 
