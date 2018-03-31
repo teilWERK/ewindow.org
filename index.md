@@ -55,7 +55,9 @@ EWindow solves two current problems: first it let team members working in differ
 THe development of the design.
 
 *FRAME  
-There is no one frame, every space build his own.
+There is no one frame, in the Mulifactory Network every space builds his own EWINDOW.
+
+![designs](images/ewindow design_pagina.png)
 
 # Have a look to some [existing frames](frames.md)
 
