@@ -10,19 +10,18 @@ layout: default
 
 It’s a public videochat system to connect different spaces based on Raspberry PI.
 
-It looks as similar as possible to a “real” window: 
-it has basic user interface and it doesn’t have mouse, keyboard, or other functions. 
+It has basic user interface and it doesn’t have mouse, keyboard, or other functions. 
 It’s just a “window" in a wall.
 
 Ewindow is:
 ### 1. __OPEN SOURCE__ 
-// the code is here [ewindow Code](https://github.com/teilWERK) enjoy it //
-### 1. __DECENTRALISED__ 
-// no central control owned by some corporation using your data for other purposes //
-### 1. __FREE__ 
+// The code is [here](https://github.com/teilWERK) enjoy it //
+
+### 2. __DECENTRALISED__ 
+// No [central control] () owned by some corporation using your data for other purposes //
+
+### 3. __FREE__ 
 // Everything (codes, hardware) is shared //
-
-
 
 [LEARN MORE](introduction.html)
 
@@ -35,20 +34,10 @@ Then, to maintain the software development we created a small company TEILWERK.
 
 [LEARN MORE](story.md)
 
-# WHY EWINDOW
-
-Ewindow is a dedicated single-app device, not a desktop computer or a smartphone.
-
-Many different EWindows, all togheter, can make their own social network. Imagine you want to connect 3 different spaces. 
-Every space has its own window in a common area, like in the coffebreak, a corridor, the kitchen.
-With the press of a button, the EWindow will connect to another EWindow in the same network.
-Once the Window is opened, there is a # 1:1 encrypted connection. 
-
-[LEARN MORE](why.md)
-
-
 # BUY
-EWindow solves two current problems: first it let team members working in different buildings, cities or countries to share daily life and common values which is crucial team building. Second it lowers the email communication that in the last years increased so much that it loses power on communication.
+EWindow solves two current problems: 
+/ First it let team members working in different buildings, cities or countries to share daily life and common values which is crucial for team building.
+/ Second, it lowers the email communication flow that in the last years increased too much in many environments.
 
 [LEARN MORE](buy.md)
 
