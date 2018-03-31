@@ -6,6 +6,8 @@ layout: default
 # EWindow is a TECHNOLOGICAL DEVICE 
 # for a NEW REVOLUTIONARY __Social Network__
 
+![R84 EWINDOW](images/R84 EWINDOW.png)
+
 It’s a public videochat system to connect different spaces based on Raspberry PI.
 
 It looks as similar as possible to a “real” window: 
@@ -20,7 +22,7 @@ Ewindow is:
 ### 1. __FREE__ 
 // Everything (codes, hardware) is shared //
 
-![R84 EWINDOW](images/R84 EWINDOW.png)
+
 
 [LEARN MORE](introduction.html)
 
@@ -126,9 +128,7 @@ The EWindow offers a third way.
 
 # NEWSLETTER
 
-Subscribe to our newsletter 
 
-#######################################
 <!-- Begin MailChimp Signup Form -->
 <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
 <style type="text/css">
@@ -139,7 +139,7 @@ Subscribe to our newsletter
 <div id="mc_embed_signup">
 <form action="https://fablabdd.us3.list-manage.com/subscribe/post?u=787a4e76d86392475bc9dbff6&amp;id=5214318c17" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
     <div id="mc_embed_signup_scroll">
-    <h2>Subscribe to our mailing list</h2>
+    <h2> If you would like to get updated, subscribe to our newsletter</h2>
 <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
 <div class="mc-field-group">
     <label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
@@ -171,7 +171,6 @@ Subscribe to our newsletter
 </div>
 <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
 <!--End mc_embed_signup-->
-#######################################
 
 # CONTACTS
 
