@@ -166,7 +166,7 @@ They can be useful for different situations.
 
 # JOIN THE EXISTING EWINDOW NETWORK:
 
-[THE MULTIFACTOY NETWORK](MultiFactory.md)
+[THE MULTIFACTOY NETWORK](MultiFactory.html)
 
 
 ## THE MULTIFACTORY NETWORK
