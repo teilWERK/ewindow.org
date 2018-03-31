@@ -30,6 +30,7 @@ The EWindow started some years ago
 After some years of trials and experiments on instant communication we decided it was time to do something bigger and we involved the Verbund Offener Werkstaetten (D) which decided to join us in the long process of making the community and spreading awarness around this theme.
 Then, to maintain the software development we created a small company TEILWERK.
 
+[LEARN MORE](story.md)
 
 # WHY EWINDOW
 
