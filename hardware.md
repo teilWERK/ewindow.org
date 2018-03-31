@@ -11,5 +11,5 @@ If you would like to improve the audio/video quality:
 - USB Speakerphone //will replace speakers and microphone//
 
 ## Button
-![button](button_500px.jpg.md)
+![button](images/button_500px.jpg)
 To use the ewindow, you will need to connect a button between GPIO 3 and Ground. Refer to [https://pinout.xyz] to find it.
