@@ -1,5 +1,36 @@
 @import "rouge-base16-dark";
 
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    background-color: #333333
+
+    width: 100%;
+}
+
+.navbar ul {
+  overflow: hidden;
+}
+
+.navbar li {
+  display: inline;
+}
+
+.navbar a {
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.navbar li:before {
+  color: "red";
+  content: "";
+  margin: 0;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -144,6 +175,7 @@ ul li:before {
   margin-right: 21px;
   line-height: 16px;
 }
+
 
 blockquote {
   color: #aaa;
