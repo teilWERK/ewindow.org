@@ -47,7 +47,7 @@ Once the Window is opened, there is a # 1:1 encrypted connection.
 # BUY
 EWindow solves two current problems: first it let team members working in different buildings, cities or countries to share daily life and common values which is crucial team building. Second it lowers the email communication that in the last years increased so much that it loses power on communication.
 
-[LEARN MORE](buy.html)
+[LEARN MORE](buy.md)
 
 
 # DESIGN 
