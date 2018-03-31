@@ -75,7 +75,7 @@ After many trials (and errors) we went up with a simple and accessible configura
 [LEARN MORE ABOUT ELECTRONIC PARTS](hardware.md)
 
 
-# SOFTWARE 
+# SOFTWARE   
 
 The EWindows are based on a software developed for running on affordable technologies (such as Raspberry Pi *raspberryPi is a open-source hardware computer. is like a small computer that you can use for prototyping.*, a flat monitor, a webcam, Linux). 
 The OS is Raspbian which is a free operating system, optimized for the Raspberry Pi hardware, that coincides with the open standards as in public, transparent and accessible to everyone. It provides an encrypted and secure connection.
