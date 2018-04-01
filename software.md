@@ -8,6 +8,6 @@ When the first connection is established, it starts a one to one communication, 
 
 ## [DOWNLOAD THE IMAGE FOR THE RASPBY](imagedownload.md)
 
-## [GETTING STARTED](gettingstarted.md)
+## [GETTING STARTED](gettingstarted.html)
 
 ## [IMPLEMENTATION](implementation.md)
