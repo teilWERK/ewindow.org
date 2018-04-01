@@ -3,12 +3,19 @@ title: THE ELECTRONIC WINDOW
 layout: default
 ---
 
-## To Download the Image  
+## To install the Operanting System and the EWindow Software
 
-1.
-[https://ewindow.org/download/ewindow-v0.3.zip]: https://ewindow.org/download/ewindow-v0.3.zip "Get the Image for Raspberry Pi here"
-[https://ewindow.org/download/ewindow-v0.3.zip]
+We made it very easy for you:
 
-1.
+1. DOWNLOAD THE IMAGE
+[Here you get the Image for Raspberry Pi](https://ewindow.org/download/ewindow-v0.3.zip) 
+
+
+2. INSTALL IT INTO THE SD CARD
 Unpack the archive, and write the .img to the SD card.
-If you don't know how to do that, use [etcher.io](http://etcher.io)
+
+We recommend [etcher.io](http://etcher.io) for installing the image. 
+- select the image
+- select the SD card
+- press Flash Card
+
