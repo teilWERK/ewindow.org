@@ -18,7 +18,7 @@ Ewindow is:
 // The code is [here](https://github.com/teilWERK) enjoy it //
 
 ### 2. __DECENTRALIZED__ 
-// No [central control] () by some corporation using your data for other purposes //
+// No [central control](why.md) by some corporation using your data for other purposes //
 
 ### 3. __FREE__ 
 // Everything (codes, hardware) is shared //
