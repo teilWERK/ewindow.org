@@ -41,17 +41,12 @@ EWindow solves two current problems:
 
 [LEARN MORE](buy.md)
 
-
 # DESIGN 
-
-THe development of the design.
-
-*FRAME  
-There is no one frame, in the Mulifactory Network every space builds his own EWINDOW.
+There are different frame designs available, from more artistic one to certified one for public environments.
 
 ![designs](images/ewindow design_pagina.png)
 
-# Have a look to some [existing frames](frames.md)
+### Have a look to some [existing frames](frames.md)
 
 # HARDWARE DEVELOPMENT
 
@@ -71,10 +66,15 @@ After many trials (and errors) we went up with a simple and accessible configura
 
 # SOFTWARE   
 
-The EWindows are based on a software developed for running on affordable technologies (such as Raspberry Pi *raspberryPi is a open-source hardware computer. is like a small computer that you can use for prototyping.*, a flat monitor, a webcam, Linux). 
-The OS is Raspbian which is a free operating system, optimized for the Raspberry Pi hardware, that coincides with the open standards as in public, transparent and accessible to everyone. It provides an encrypted and secure connection.
+Developer Jonathan Sieber with this project started his own adventure in developing a proper free software system of audiovideo communication.
 
-It is also optimized to be efficiently used on most hardware from single board computers such as the raspberry pi to high end pc’s.  And it facilitates further experimentation with new hardware of software features.
+The EWindows are based on a software developed for running on affordable technologies (such as Raspberry Pi *raspberryPi is a open-source hardware computer. is like a small computer that you can use for prototyping.*) and which uses a low bandwidth.
+
+The OS is Raspbian which is a free operating system, optimized for the Raspberry Pi hardware, coincides with the open standards as is public, transparent and accessible to everyone. 
+
+The added values of developing this NEW free software system are:
+EWindow system can be replicated anywhere in the world without hardware problems 
+The software provides an encrypted and secure connection.
 
 
 # COMMUNITY 
