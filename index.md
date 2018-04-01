@@ -8,12 +8,13 @@ layout: default
 
 ![R84 EWINDOW](images/R84 EWINDOW.png)
 
-It’s a public videochat system to connect different spaces based on Raspberry PI.
+The EWindow is an electronic window open 24 hours a day on another space, 
+as if it were the extension of the room, allowing a two-way audio video communication in real time. 
 
 It has basic user interface and it doesn’t have mouse, keyboard, or other functions. 
 It’s just a “window" in a wall.
 
-Ewindow is:
+The EWindow is:
 ### 1. __OPEN SOURCE__ 
 // The code is [here](https://github.com/teilWERK) enjoy it //
 
