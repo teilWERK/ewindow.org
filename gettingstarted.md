@@ -26,3 +26,8 @@ I left acces for my SSH key, just in case ;)
 If you don't like that, remove the backdoor like this:
 
     sudo rm /root/.ssh/authorized_keys
+
+Use the button to bring up the contact list (GPIO3 or USB Keyboard).
+Press short to skip, press long to select an open window to connect to.
+
+If you run into any problems, contact me via mail to ewindow@strfry.org
