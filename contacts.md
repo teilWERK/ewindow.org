@@ -5,7 +5,7 @@ layout: default
 
 Community development --> Lorenza Salati - lorenza@teilwerk.com
 
-Business Development --> Maik Jähne - maik@teilwek.com
+Business Development --> Maik Jähne - maik@teilwerk.com
 
 Strategy Development --> Giulio Focardi - giulio@teilwerk.com
 
