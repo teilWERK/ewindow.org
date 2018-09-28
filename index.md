@@ -26,6 +26,12 @@ The EWindow is:
 
 [LEARN MORE](introduction.html)
 
+#
+YOU WANNA MEET OUR DEVELOPER? 
+
+he will present the ewindow project at the next TOX Conference in Vienna. 12-14 October 2018.
+https://blog.tox.chat/
+
 # STORY
 
 The EWindow started some years ago. 
