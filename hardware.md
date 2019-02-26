@@ -3,20 +3,20 @@ title: THE ELECTRONIC WINDOW
 layout: default
 ---
 
-
-## Raspberry Pi 3 + power
+## Raspberry Pi 3
 ![raspberrypi](images/RASPBERRYPI.png)
-Raspberry PI + 1X power adaptor (2A is ok)
 
-## Webcam
-![webcam](images/WEBCAM.png)
+## Raspberry Pi Universal Powersupply
 
-1X webcam (it has to operate with raspberry pi - check the model) – TIP: the model in picture (Genius WideCam F100) is a 120-degree ultra wide angle Full HD Conference Webcam, is tested, has good performances both for audio and video and works with Raspberry PI2. It can be easily found in major stores as Conrad (more or less 40€).
+## Raspbeery Pi Camera module V2
+
+## a micro SD Card 16Gbyte size
+recommended devices: Samsung (don't use sandisk)
+
+## a USB Stick 32MByte size or larger (every eWindow ned its USB stick with all data on it)
 
 ## Speakers
-1X pair of speakers WITH amplifier and analog volume control. 
-![webcam](images/SPEAKERS.png)
-
+1X pair of Jabra speakers WITH amplifier (for anti echo cancellation) and analog volume control (for an easy control of the volume). 
 
 ## Monitor
 ![Monitor](images/MONITOR.png)
@@ -24,12 +24,3 @@ Raspberry PI + 1X power adaptor (2A is ok)
 ## HDMI Cable
 ![Cable](images/HDMI & RGB cable.png)
 1X HDMI cable (if the tft-screen has dvi input, use HDMI-DVI cable)
-
-## Button
-![Mutton](images/button_500px.jpg)
-To use the ewindow, you will need to connect a button between GPIO 3 and Ground. Refer to [https://pinout.xyz] to find it.
-
-
-If you would like to improve the audio/video quality:
-- Raspberry PiCam //wide-angle version recommended//
-- USB Speakerphone //will replace speakers and microphone//
