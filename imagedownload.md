@@ -5,6 +5,14 @@ layout: default
 
 ## Operations to install the Operanting System and the Software
 
+#### FOR PRO:
+1. Download the image
+Here you get the Image for Raspberry Pi http://imagedev.toxblinkenwall.org/
+2. Install it to the SD card
+Unpack the archive, and write the .img to the SD card.
+
+
+#### FOR BEGINNERS:
 ### Setup a new System from scratch
 1.	Download ETCHER [https://www.balena.io/etcher/]
 2.	Install ETCHER on your PC
