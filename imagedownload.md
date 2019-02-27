@@ -3,16 +3,17 @@ title: THE ELECTRONIC WINDOW
 layout: default
 ---
 
-## Operations to install the Operanting System and the Software
+## Operations to install the Operanting System
 
-#### FOR PRO:
+### FOR PRO:
 1. Download the image
 Here you get the Image for Raspberry Pi http://imagedev.toxblinkenwall.org/
 2. Install it to the SD card
 Unpack the archive, and write the .img to the SD card.
 
 
-#### FOR BEGINNERS:
+
+### FOR BEGINNERS:
 ### Setup a new System from scratch
 1.	Download ETCHER [https://www.balena.io/etcher/]
 2.	Install ETCHER on your PC
@@ -91,8 +92,9 @@ reading “ToxBlinkenwall v0.99.xy”
 23.	now your system should be restored and you also have a new backup on your USB stick
 
 
-In 2017, the ToxBlinkenwall project was created BY Zoff from Vienna, we recently met him and joined our forces. TOXBlinkenwall now provides the technological base to implement the eWindow too. 
-The current software repositories we are spreading and giving our help to improve are: 
+In 2017, the ToxBlinkenwall project was created BY Zoff from Vienna, we recently met him and joined our forces. The ToxBlinkenwall operating system now provides the technological base to implement the eWindow too. 
+
+The current software repositories we are trying to give our help to improve are: 
 https://github.com/Zoxcore/ToxBlinkenwall
 https://github.com/Zoxcore/ToxBlinkenwall_raspi_lite_image
 
