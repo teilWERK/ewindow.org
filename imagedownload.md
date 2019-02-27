@@ -7,9 +7,12 @@ layout: default
 
 ### FOR PRO:
 1. Download the image for the Raspberry Pi 3 http://imagedev.toxblinkenwall.org/
+
 2. Write the .img to the SD card.
 
+
 ---
+
 
 ### FOR BEGINNERS:
 ### Setup a new System from scratch
