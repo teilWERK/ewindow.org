@@ -3,6 +3,8 @@ title: THE ELECTRONIC WINDOW
 layout: default
 ---
 
+All you need for setting up the electronic parts of the eWindw is:
+
 ![needed electronics](images/IMG-2975.jpg)
 
 
