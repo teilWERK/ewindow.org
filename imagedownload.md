@@ -14,6 +14,8 @@ layout: default
 ---
 
 
+
+
 ### FOR BEGINNERS:
 ### Setup a new System from scratch
 1.	Download ETCHER [https://www.balena.io/etcher/]
