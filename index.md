@@ -16,7 +16,7 @@ It’s just a “window" in a wall.
 
 The EWindow is:
 ### 1. __OPEN SOURCE__ 
-// The code is [here](https://github.com/teilWERK) enjoy it //
+// The code is [here](https://github.com/Zoxcore) enjoy it //
 
 ### 2. __DECENTRALIZED__ 
 // No [central control](why.md) by some corporation using your data for other purposes //
@@ -29,7 +29,7 @@ The EWindow is:
 #
 YOU WANNA MEET OUR DEVELOPER? 
 
-he will present the ewindow project at the next TOX Conference in Vienna. 12-14 October 2018.
+he will present the ewindow project at the next TocCon 2019 in Vienna.
 https://blog.tox.chat/
 
 # STORY
@@ -73,7 +73,7 @@ After many trials (and errors) we went up with a simple and accessible configura
 
 # SOFTWARE   
 
-Developer Jonathan Sieber with this project started his own adventure in developing a proper free software system of audiovideo communication.
+strfry and zoff with this project started their own adventure in developing a proper free software system of audiovideo communication.
 
 The EWindows are based on a software developed for running on affordable technologies (such as Raspberry Pi *raspberryPi is a open-source hardware computer. is like a small computer that you can use for prototyping.*) and which uses a low bandwidth.
 
