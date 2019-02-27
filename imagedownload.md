@@ -6,12 +6,10 @@ layout: default
 ## Operations to install the Operanting System
 
 ### FOR PRO:
-1. Download the image
-Here you get the Image for Raspberry Pi http://imagedev.toxblinkenwall.org/
-2. Install it to the SD card
-Unpack the archive, and write the .img to the SD card.
+1. Download the image for the Raspberry Pi 3 http://imagedev.toxblinkenwall.org/
+2. Write the .img to the SD card.
 
-
+---
 
 ### FOR BEGINNERS:
 ### Setup a new System from scratch
