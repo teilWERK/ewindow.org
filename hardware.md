@@ -3,24 +3,24 @@ title: THE ELECTRONIC WINDOW
 layout: default
 ---
 
-## Raspberry Pi 3
 ![raspberrypi](images/RASPBERRYPI.png)
 
-## Raspberry Pi Universal Powersupply
+#### Raspberry Pi 3
 
-## Raspbeery Pi Camera module V2
+#### Raspberry Pi Universal Powersupply
 
-## a micro SD Card 16Gbyte size
-recommended devices: Samsung (don't use sandisk)
+#### Raspbeery Pi Camera module V2
 
-## a USB Stick 32MByte size or larger (every eWindow ned its USB stick with all data on it)
+#### micro SD Card 16Gbyte size
+recommended device: Samsung (don't use sandisk !)
 
-## Speakers
-1X pair of Jabra speakers WITH amplifier (for anti echo cancellation) and analog volume control (for an easy control of the volume). 
+#### USB Stick 32MByte size or larger (every eWindow ned its USB stick with all data saved on it)
 
-## Monitor
-![Monitor](images/MONITOR.png)
+#### Speakers
+1X pair of speakers WITH amplifier (for anti echo cancellation) and analog volume control (for an easy control of the volume). 
+Recommended device: JABRA 510
 
-## HDMI Cable
-![Cable](images/HDMI & RGB cable.png)
-1X HDMI cable (if the tft-screen has dvi input, use HDMI-DVI cable)
+#### Monitor
+
+#### HDMI Cable
+
