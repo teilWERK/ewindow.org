@@ -6,22 +6,23 @@ layout: default
 ![needed electronics](images/IMG-2975.jpg)
 
 
-#### Raspberry Pi 3
+#### 1. Raspberry Pi 3
 
-#### Raspberry Pi Universal Powersupply
+#### 2. Raspberry Pi Universal Powersupply
 
-#### Raspbeery Pi Camera module V2
+#### 3. Raspbeery Pi Camera module V2
 
-#### micro SD Card 16Gbyte size
+#### 4- Micro SD Card 16Gbyte size
 recommended device: Samsung (don't use sandisk !)
 
-#### USB Stick 32MByte size or larger (every eWindow ned its USB stick with all data saved on it)
+#### 5. USB Stick 32MByte size or larger (every eWindow ned its USB stick with all data saved on it)
 
-#### Speakers
-1X pair of speakers WITH amplifier (for anti echo cancellation) and analog volume control (for an easy control of the volume). 
+#### 6. Speakers
+1X pair of speakers WITH amplifier (needed for echo cancellation) and analog volume control (for an easy control of the volume). 
 Recommended device: JABRA 510
 
-#### Monitor
+#### 7. Monitor
 
-#### HDMI Cable
+#### 8. HDMI Cable
 
+#### 9. keypad (for calling other eWindows or ToxBlinkenwalls)
