@@ -3,7 +3,8 @@ title: THE ELECTRONIC WINDOW
 layout: default
 ---
 
-![raspberrypi](images/RASPBERRYPI.png)
+![needed electronics](images/IMG-2975.jpg)
+
 
 #### Raspberry Pi 3
 
