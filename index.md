@@ -29,7 +29,7 @@ The EWindow is:
 #
 YOU WANNA MEET OUR DEVELOPER? 
 
-he will present the ewindow project at the next TocCon 2019 in Vienna.
+he will present the ewindow project at the next ToxCon 2019 in Vienna.
 https://blog.tox.chat/
 
 # STORY
