@@ -8,9 +8,10 @@ http://imagedev.toxblinkenwall.org/
 
 For non developers:
 Setup a new System from scratch
-4. Download ETCHER [https://www.balena.io/etcher/]
-5. Install ETCHER on your PC
-6. download the Raspi Image from http://imagedev.toxblinkenwall.org/
+
+1. Download ETCHER [https://www.balena.io/etcher/]
+2. Install ETCHER on your PC
+3. download the Raspi Image from http://imagedev.toxblinkenwall.org/
 7. save the image on your PC
 8. insert an SD card (minimum 4 Gb) in your PC (or use an adapter)
 9. no need to format the SD card
