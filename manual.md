@@ -1,9 +1,11 @@
 Operations Manual
+
 For developers:
 1. burn a micro sd card with the latest version of the software
 http://imagedev.toxblinkenwall.org/
 2. exchange keys between two Ewindows – ToxBlinkenwalls
 3. press a button associated to the new "friend” and start talking
+
 For non developers:
 Setup a new System from scratch
 4. Download ETCHER [https://www.balena.io/etcher/]
