@@ -1,13 +1,14 @@
-Operations Manual
+Operations Manual 
+to set up the operanting system and sofware on the microSD card.
 
-For developers:
+** For developers:
 1. burn a micro sd card with the latest version of the software
 http://imagedev.toxblinkenwall.org/
 2. exchange keys between two Ewindows – ToxBlinkenwalls
 3. press a button associated to the new "friend” and start talking
 
-For non developers:
-Setup a new System from scratch
+
+** For non developers:
 
 1. Download ETCHER [https://www.balena.io/etcher/]
 2. Install ETCHER on your PC
@@ -37,7 +38,9 @@ reading “ToxBlinkenwall v0.99.xy”
 25. Now only this USB stick is paired with this eWindow ToxBlinkenwall
 26. DO NOT lose the data on this USB Stick, it is important. you can backup the files and directories
 from the Stick to your PC, if you prefer.
-Add a new friend to call:
+
+
++++ ADD A NEW EWINDOW IN YOUR NETWORK:
 1. insert the USB stick into your PC
 2. open the folder “backup”
 3. Choose one of the files named book_entry_#.txt
@@ -55,7 +58,11 @@ Add a new friend to call:
 15. Copy the code
 16. Send to the person you want to connect.
 !!!THIS CODE WILL WORK JUST ONE TIME AND IS VALID JUST FOR 1 HOUR!!!
-17. To get a new code (to connect more “Friends”) put the USB stick into the Raspberry and repeatRecover if your eWindow ToxBlinkenwall has some critical issue
+To get a new code (to connect more “Friends”) put the USB stick into the Raspberry and repeat
+
+
++++ Recover if your eWindow has some critical issue:
+
 1. disconnect the Raspberry from the Power Supply
 2. insert a NEW working SD card (minimum 4 Gb) in your PC
 3. no need to format the SD card
