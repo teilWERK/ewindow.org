@@ -7,3 +7,5 @@ Contact us through [https://matrix.to/#/#freenode_#ewindow:matrix.org](https://m
 
 or directly on IRC: #ewindow on Freenode
 
+or via Mail: jonathan@teilwerk.com
+
